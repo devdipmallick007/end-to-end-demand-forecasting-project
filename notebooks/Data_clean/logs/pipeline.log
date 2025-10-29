@@ -1,0 +1,12 @@
+2025-10-21 21:01:32,683 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-21 21:03:36,585 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-21 21:03:44,998 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-21 21:04:42,370 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-21 21:05:35,245 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-21 21:06:10,625 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-21 21:06:51,540 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-21 21:06:55,275 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-21 21:07:41,403 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-21 21:08:11,143 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-21 21:08:34,697 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-21 21:09:00,565 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)

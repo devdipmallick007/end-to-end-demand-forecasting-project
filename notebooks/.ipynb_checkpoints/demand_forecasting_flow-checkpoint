@@ -1,0 +1,26 @@
+digraph {
+	orders [label="blinkit_orders
+(order_id, customer_id, store_id, order_date, order_total)"]
+	order_items [label="blinkit_order_items
+(order_id, product_id, quantity, unit_price)"]
+	products [label="blinkit_products
+(product_id, category, brand, price)"]
+	customers [label="blinkit_customers
+(customer_id, area)"]
+	weather [label="blinkit_weather_data
+(area, date, temperature, precipitation)"]
+	marketing [label="blinkit_marketing_performance
+(date, spend, impressions, conversions)"]
+	feedback [label="blinkit_customer_feedback
+(area, sentiment)"]
+	model [label="Demand Forecasting Model"]
+	orders -> order_items
+	order_items -> products
+	orders -> customers
+	customers -> weather
+	weather -> model
+	products -> model
+	feedback -> model
+	marketing -> model
+	orders -> model
+}

@@ -1,0 +1,874 @@
+2025-10-04 00:18:13,389 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:26:03,412 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:26:03,476 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:26:03,508 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:26:03,528 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:26:03,580 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:26:03,602 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:26:03,641 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:26:03,675 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:33:10,878 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:33:10,942 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:33:11,008 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:33:11,079 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:33:11,080 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:33:11,122 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:33:11,206 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:33:11,267 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:33:21,206 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:33:21,245 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:33:21,295 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:33:21,304 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:33:21,352 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:33:21,392 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:33:21,443 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:33:21,484 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:33:29,787 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:33:29,814 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:33:29,840 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:33:29,846 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:33:29,917 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:33:29,935 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:33:29,971 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:33:30,009 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:35:24,418 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:35:27,687 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:35:27,700 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:35:27,737 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:35:27,744 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:35:27,838 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:35:27,866 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:35:27,905 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:36:35,893 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:36:35,914 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:36:35,943 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:36:35,949 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:36:35,994 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:36:36,022 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:36:36,066 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:36:36,111 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:38:25,215 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:38:25,284 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:38:25,317 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:38:25,325 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:38:25,378 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:38:25,406 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:38:25,452 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:38:25,493 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:39:26,373 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:39:26,437 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:39:26,450 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:39:27,040 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:39:27,087 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:39:27,120 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:39:29,231 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:39:29,300 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:40:01,207 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:40:01,266 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:40:01,291 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:40:01,301 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:40:01,310 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:40:01,365 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:40:01,412 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:40:01,455 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:41:49,677 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:41:49,729 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:41:49,763 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:41:49,770 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:41:49,820 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:41:49,854 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:41:49,892 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:41:49,930 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:51:36,344 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:51:36,448 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:51:36,463 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:51:36,501 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:51:36,509 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:51:36,581 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:51:36,620 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:51:36,654 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:52:58,972 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data'
+2025-10-04 00:53:35,842 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data'
+2025-10-04 00:54:57,396 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 00:54:57,468 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 00:55:03,207 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 00:55:03,222 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 00:55:03,245 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 00:55:03,370 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 00:55:03,452 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 00:55:03,479 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 00:56:49,463 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,464 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,466 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,474 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,484 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,495 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,503 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,503 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,504 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,507 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,508 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,508 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,511 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,512 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,513 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,518 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,520 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,522 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,550 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,574 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,575 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,575 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,581 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,583 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,584 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,584 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,586 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,588 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,591 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,611 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,626 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,645 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,665 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,668 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,675 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,732 | WARNING | data_pipeline | No Redis data for 'blinkit_customer_feedback'
+2025-10-04 00:56:49,733 | WARNING | data_pipeline | No Redis data for 'blinkit_delivery_performance'
+2025-10-04 00:56:49,735 | WARNING | data_pipeline | No Redis data for 'blinkit_customers'
+2025-10-04 00:56:49,735 | WARNING | data_pipeline | No Redis data for 'blinkit_marketing_performance'
+2025-10-04 00:56:49,735 | WARNING | data_pipeline | No Redis data for 'blinkit_order_items'
+2025-10-04 00:56:49,812 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,816 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,820 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,828 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,831 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,834 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,837 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,838 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,840 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,841 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,843 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,845 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,847 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,849 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,852 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,854 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,855 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,857 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,859 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,861 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,864 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 00:56:49,877 | WARNING | data_pipeline | No Redis data for 'blinkit_orders'
+2025-10-04 00:56:49,884 | WARNING | data_pipeline | No Redis data for 'blinkit_weather'
+2025-10-04 00:56:49,884 | WARNING | data_pipeline | No Redis data for 'blinkit_products'
+2025-10-04 01:00:10,687 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:10,703 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:10,722 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:10,736 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:10,738 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:10,743 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:10,746 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:11,048 | WARNING | data_pipeline | No Redis data for 'blinkit_orders'
+2025-10-04 01:00:11,114 | WARNING | data_pipeline | Table 'blinkit_weather_data' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:11,116 | WARNING | data_pipeline | Table 'blinkit_weather_data' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:11,118 | WARNING | data_pipeline | Table 'blinkit_weather_data' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:11,120 | WARNING | data_pipeline | Table 'blinkit_weather_data' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:11,122 | WARNING | data_pipeline | Table 'blinkit_weather_data' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:11,125 | WARNING | data_pipeline | Table 'blinkit_weather_data' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:11,127 | WARNING | data_pipeline | Table 'blinkit_weather_data' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:11,140 | WARNING | data_pipeline | No Redis data for 'blinkit_weather_data'
+2025-10-04 01:00:34,665 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,668 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,669 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,692 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,694 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,695 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,708 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,833 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,869 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,871 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,871 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,872 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,872 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,873 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,875 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,880 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,880 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,881 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,882 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,885 | WARNING | data_pipeline | Table 'blinkit_customer_feedback' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,889 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,892 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,897 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,902 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,912 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,917 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,926 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,931 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,935 | WARNING | data_pipeline | No Redis data for 'blinkit_customer_feedback'
+2025-10-04 01:00:34,937 | WARNING | data_pipeline | Table 'blinkit_customers' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,941 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,943 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,948 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,953 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,957 | WARNING | data_pipeline | Table 'blinkit_delivery_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,959 | WARNING | data_pipeline | Table 'blinkit_marketing_performance' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,961 | WARNING | data_pipeline | Table 'blinkit_order_items' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,963 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,968 | WARNING | data_pipeline | No Redis data for 'blinkit_customers'
+2025-10-04 01:00:34,973 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,979 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,981 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,983 | WARNING | data_pipeline | No Redis data for 'blinkit_marketing_performance'
+2025-10-04 01:00:34,984 | WARNING | data_pipeline | No Redis data for 'blinkit_delivery_performance'
+2025-10-04 01:00:34,985 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,987 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,987 | WARNING | data_pipeline | No Redis data for 'blinkit_order_items'
+2025-10-04 01:00:34,991 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,996 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:34,999 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,005 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,007 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,008 | WARNING | data_pipeline | Table 'blinkit_orders' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,011 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,013 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,017 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,019 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,021 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,023 | WARNING | data_pipeline | Table 'blinkit_products' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,025 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,026 | WARNING | data_pipeline | No Redis data for 'blinkit_orders'
+2025-10-04 01:00:35,033 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: maximum recursion depth exceeded
+2025-10-04 01:00:35,041 | WARNING | data_pipeline | No Redis data for 'blinkit_products'
+2025-10-04 01:00:35,049 | WARNING | data_pipeline | No Redis data for 'blinkit_weather'
+2025-10-04 01:00:53,876 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data'
+2025-10-04 01:01:02,527 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 01:01:02,676 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 01:01:02,710 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 01:01:02,734 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback
+2025-10-04 01:01:02,741 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 01:01:02,755 | WARNING | data_pipeline | No Redis data for 'blinkit_weather'
+2025-10-04 01:01:02,819 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 01:01:02,865 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 01:01:02,889 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 01:01:48,035 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 01:01:48,521 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data'
+2025-10-04 01:02:00,463 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 01:02:00,502 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 01:02:00,531 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 01:02:00,539 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback
+2025-10-04 01:02:00,541 | WARNING | data_pipeline | No Redis data for 'blinkit_weather'
+2025-10-04 01:02:00,605 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 01:02:00,636 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 01:02:00,680 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 01:02:00,719 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 01:02:18,554 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data'
+2025-10-04 01:02:29,145 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items'
+2025-10-04 01:02:29,197 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers'
+2025-10-04 01:02:29,229 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products'
+2025-10-04 01:02:29,236 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback
+2025-10-04 01:02:29,244 | WARNING | data_pipeline | No Redis data for 'blinkit_weather'
+2025-10-04 01:02:29,298 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback'
+2025-10-04 01:02:29,328 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance'
+2025-10-04 01:02:29,372 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance'
+2025-10-04 01:02:29,408 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 01:02:36,432 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders'
+2025-10-04 01:02:36,978 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data'
+2025-10-04 01:08:18,639 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:08:18,725 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:08:18,777 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:08:18,812 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 01:08:18,843 | WARNING | data_pipeline | No Redis data for 'blinkit_weather'
+2025-10-04 01:08:18,862 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:08:18,903 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:08:18,944 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:08:18,986 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:08:27,574 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:08:28,259 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:08:30,909 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 01:08:30,915 | WARNING | data_pipeline | No Redis data for 'blinkit_weather'
+2025-10-04 01:08:31,001 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:08:31,223 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:08:31,260 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:08:31,327 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:08:31,352 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:08:31,409 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:08:31,475 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:17:48,823 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:17:48,889 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:17:48,947 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:17:48,964 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 01:17:48,982 | WARNING | data_pipeline | No Redis data for 'blinkit_weather'
+2025-10-04 01:17:49,075 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:17:49,120 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:17:49,174 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:17:49,227 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:19:29,998 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data'
+2025-10-04 01:23:06,933 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:23:07,046 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:23:07,097 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:23:07,124 | WARNING | data_pipeline | Table 'blinkit_weather' missing in DB, trying Redis fallback: Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-04 01:23:07,141 | WARNING | data_pipeline | No Redis data for 'blinkit_weather'
+2025-10-04 01:23:07,243 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:23:07,246 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:23:07,302 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:23:07,357 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:30:10,915 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:30:10,963 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:30:10,992 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:30:11,064 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:30:11,095 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:30:11,186 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:30:11,239 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:30:11,722 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:31:48,971 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:31:49,021 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:31:49,049 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:31:49,101 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:31:49,134 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:31:49,193 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:31:49,239 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:31:49,687 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:36:35,800 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:36:35,844 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:36:35,871 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:36:35,971 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:36:35,987 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:36:36,070 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:36:36,120 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:36:36,715 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:38:31,496 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:38:31,836 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:38:31,895 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:38:32,005 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:38:32,014 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:38:32,074 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:38:32,105 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:38:32,653 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:40:12,647 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:40:12,972 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:41:02,026 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:41:02,060 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:41:02,245 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:41:02,310 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:41:02,363 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:41:02,854 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:44:25,864 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:44:26,252 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:44:26,330 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:44:26,453 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:44:26,501 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:44:26,573 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:44:26,623 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:44:27,279 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:53:19,297 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:53:19,748 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:53:19,867 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:53:20,082 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:53:20,091 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:53:20,154 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:53:20,195 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:53:20,909 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:55:26,283 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:55:26,328 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:55:26,344 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:55:26,473 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:55:26,516 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:55:26,575 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:55:26,612 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:55:27,210 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:55:39,070 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:55:39,122 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:55:39,131 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:55:39,211 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:55:39,265 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:55:39,329 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:55:39,372 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:55:39,880 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:55:40,071 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 01:55:58,897 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:55:58,955 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:55:58,968 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:55:59,075 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:55:59,117 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:55:59,185 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:55:59,216 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:55:59,747 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:55:59,801 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 01:56:50,730 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:56:50,732 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:56:50,744 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:56:54,155 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:56:54,194 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:56:54,251 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:56:54,317 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:56:54,839 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:56:54,876 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 01:58:15,319 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:58:15,369 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:58:15,406 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:58:15,904 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:58:15,934 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:58:33,148 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:58:33,225 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:58:33,838 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:58:33,881 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 01:59:50,420 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 01:59:50,479 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 01:59:50,824 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 01:59:50,919 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 01:59:50,969 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 01:59:51,045 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 01:59:51,082 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 01:59:51,672 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 01:59:51,717 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 02:09:02,122 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2025-10-04 02:09:02,156 | WARNING | Comm | No such comm: 38022519-a8fb-42b0-a045-74ffe904f244
+2025-10-04 02:09:10,225 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2025-10-04 02:09:10,231 | WARNING | Comm | No such comm: 0ac23211-2b98-42f6-a3c2-2856773a573b
+2025-10-04 02:13:31,119 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2025-10-04 02:13:31,122 | WARNING | Comm | No such comm: bebeaec3-8a98-4f87-9437-a72f24ad3dfb
+2025-10-04 13:28:08,552 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 13:28:08,648 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 13:28:08,855 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 13:28:09,107 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 13:28:09,139 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 13:28:09,191 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 13:28:09,234 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 13:28:10,127 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 13:28:10,221 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 13:28:42,629 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 13:29:05,218 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 13:29:05,299 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 13:38:29,843 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 13:38:29,891 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 13:38:30,003 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 13:38:49,186 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 13:38:49,264 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 13:38:49,378 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 13:38:49,441 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 13:38:50,198 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 13:38:50,289 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 19:43:45,309 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 19:43:45,360 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 19:43:45,380 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 19:43:45,490 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 19:43:45,522 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 19:43:45,570 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 19:43:45,596 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 19:43:46,077 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 19:43:46,120 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 19:52:11,938 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 19:52:11,988 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 19:52:12,018 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 19:52:12,083 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 19:52:12,149 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 19:52:12,199 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 19:52:12,227 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 19:52:12,749 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 19:52:12,802 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 19:56:34,554 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 19:56:34,587 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 19:56:34,611 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 19:56:34,689 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 19:56:34,722 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 19:56:34,783 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 19:56:34,812 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 19:56:35,264 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 19:56:35,299 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 21:02:09,377 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 21:02:09,437 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 21:02:09,476 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 21:02:09,568 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 21:02:09,585 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 21:02:09,648 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 21:02:09,680 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 21:02:10,179 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 21:02:10,236 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 21:02:17,904 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 21:02:17,945 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 21:02:17,966 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 21:02:18,059 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 21:02:18,099 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 21:02:18,162 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 21:02:18,194 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 21:02:18,706 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 21:02:18,749 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 21:03:00,403 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 21:03:00,429 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 21:03:05,135 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 21:03:05,266 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 21:03:05,391 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 21:03:05,413 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 21:03:05,462 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 21:03:05,975 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 21:03:06,067 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 21:04:17,527 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 21:04:17,613 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 21:04:17,730 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 21:04:17,754 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 21:04:17,846 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 21:04:17,868 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 21:04:17,979 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 21:04:18,442 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 21:04:18,483 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 21:05:27,056 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-04 21:05:27,094 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-04 21:05:27,204 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-04 21:05:27,348 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-04 21:05:27,380 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-04 21:05:27,442 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-04 21:05:27,468 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-04 21:05:27,934 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-04 21:05:27,982 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-04 21:56:03,170 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-04 21:56:03,211 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 20:24:07,816 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-05 20:24:07,892 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-05 20:24:07,971 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-05 20:24:08,187 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-05 20:24:08,217 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-05 20:24:08,294 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-05 20:24:08,330 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-05 20:24:09,064 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-05 20:24:09,162 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-05 20:24:32,849 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 20:24:32,856 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 20:58:12,364 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-05 20:58:12,441 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-05 20:58:12,502 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-05 20:58:12,713 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-05 20:58:12,752 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-05 20:58:12,835 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-05 20:58:12,873 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-05 20:58:13,699 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-05 20:58:13,784 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-05 21:00:56,297 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 21:00:56,304 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 21:01:10,160 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 21:01:10,172 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 22:07:11,962 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 22:07:11,990 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 22:07:12,269 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 22:07:12,276 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 22:07:12,399 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 22:07:12,406 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 22:47:44,144 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-05 22:47:44,234 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-05 22:47:44,317 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-05 22:47:45,953 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-05 22:48:06,229 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-05 22:48:06,256 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-05 22:50:14,459 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-05 22:50:14,961 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-05 22:50:15,230 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-05 23:00:24,869 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:00:24,920 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:00:38,470 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:00:38,485 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:03:23,525 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:03:23,541 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:03:23,768 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:03:23,784 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:03:23,952 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:03:23,966 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:10:27,851 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:10:27,874 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:10:28,063 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:10:28,075 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:10:28,242 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:10:28,254 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:11:26,729 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:11:26,743 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:11:26,920 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:11:26,933 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:11:27,098 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:11:27,114 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:14:12,877 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:14:12,887 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:14:13,072 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:14:13,086 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:14:13,243 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:14:13,257 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:16:51,263 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:16:51,285 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:16:51,498 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:16:51,510 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:16:51,719 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:16:51,743 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:17:08,804 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:17:08,814 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:17:09,019 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:17:09,029 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:17:09,174 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-05 23:17:09,184 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-07 11:29:00,880 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-07 11:29:03,465 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-07 11:29:03,493 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-07 11:29:03,543 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-07 11:29:03,657 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-07 11:29:03,696 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-07 11:29:03,723 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-07 11:29:04,191 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-07 11:29:04,256 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-07 11:35:05,154 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-07 11:35:05,155 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-07 11:35:05,240 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-07 11:35:05,517 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-07 11:35:05,742 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-07 11:35:05,790 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-07 11:35:05,839 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-07 11:35:06,600 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-07 11:35:06,659 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-07 11:35:54,319 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-07 11:35:54,379 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-07 11:35:54,568 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-07 11:35:54,641 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-07 11:35:54,698 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-07 11:35:54,795 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-07 11:35:54,859 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-07 11:35:55,565 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-07 11:35:55,634 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-07 11:39:54,730 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-07 11:39:54,814 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-07 11:39:54,842 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-07 11:39:55,055 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-07 11:39:55,115 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-07 11:39:55,194 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-07 11:39:55,243 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-07 11:39:56,084 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-07 11:39:56,176 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-07 12:25:46,238 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-07 12:25:46,316 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-07 12:25:46,344 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-07 12:25:46,461 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-07 12:25:46,559 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-07 12:25:46,632 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-07 12:25:46,677 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-07 12:25:47,410 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-07 12:25:47,480 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-07 20:21:18,420 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-07 20:21:18,522 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-07 20:21:18,579 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-07 20:21:18,747 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-07 20:21:18,817 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-07 20:21:18,902 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-07 20:21:18,944 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-07 20:21:23,960 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-07 20:21:24,153 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-08 10:44:41,705 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-08 10:44:41,740 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-08 10:44:41,760 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-08 10:44:41,768 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-08 10:44:41,821 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-08 10:44:41,825 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-08 10:44:41,832 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-08 10:44:42,821 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-08 10:44:42,901 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-08 20:16:43,249 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-08 20:16:43,355 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-08 20:16:43,437 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-08 20:16:43,743 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-08 20:16:43,764 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-08 20:16:43,843 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-08 20:16:43,887 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-08 20:16:44,786 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-08 20:16:44,918 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-08 20:18:00,649 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-08 20:18:00,702 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-08 20:18:00,741 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-08 20:18:00,889 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-08 20:18:00,915 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-08 20:18:00,994 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-08 20:18:01,030 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-08 20:18:01,820 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-08 20:18:01,880 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-09 19:47:56,911 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-09 19:47:56,930 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-09 19:47:56,958 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-09 19:47:57,041 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-09 19:47:57,111 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-09 19:47:57,156 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-09 19:47:57,192 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-09 19:47:57,650 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-09 19:47:57,706 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-09 19:48:16,274 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-09 19:48:16,345 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-09 19:48:16,466 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-09 19:48:16,583 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-09 19:48:16,641 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-09 19:48:16,724 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-09 19:48:16,779 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-09 19:48:17,519 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-09 19:52:30,295 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-09 19:54:12,133 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-10 11:48:48,001 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-10 11:48:48,079 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-10 11:48:48,106 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-10 11:48:48,303 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-10 11:48:48,312 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-10 11:48:48,395 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-10 11:48:48,433 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-10 11:48:49,185 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-10 11:48:49,272 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-10 20:32:09,949 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-10 20:32:10,002 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-10 20:32:10,041 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-10 20:32:10,170 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-10 20:32:10,262 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-10 20:32:10,309 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-10 20:32:10,364 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-10 20:32:11,095 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-10 20:32:11,157 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-10 20:58:58,450 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-10 20:58:58,538 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-10 20:58:58,683 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-10 20:58:58,903 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-10 20:58:58,965 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-10 20:58:59,084 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-10 20:58:59,146 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-10 20:58:59,988 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-10 20:59:00,327 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-13 20:49:53,715 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-13 20:49:53,757 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-13 20:49:53,773 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-13 20:49:53,875 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-13 20:49:53,909 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-13 20:49:53,974 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-13 20:49:54,012 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-13 20:49:54,460 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-13 20:49:54,547 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-13 20:50:08,455 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-13 20:50:08,498 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-13 20:50:08,510 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-13 20:50:08,610 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-13 20:50:08,638 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-13 20:50:08,706 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-13 20:50:08,745 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-13 20:50:09,170 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-13 20:50:09,214 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-14 20:10:30,755 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-14 20:10:30,770 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-14 20:10:31,627 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-14 20:10:31,823 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-14 20:10:31,867 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-14 20:10:31,915 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-14 20:10:31,949 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-14 20:10:32,613 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-14 20:10:32,710 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-14 20:29:24,813 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-14 20:29:24,890 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-14 20:29:24,941 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-14 20:29:25,165 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-14 20:29:25,240 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-14 20:29:25,320 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-14 20:29:25,362 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-14 20:29:26,202 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-14 20:29:26,365 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-14 22:13:43,693 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-14 22:13:43,784 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-14 22:13:43,843 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-14 22:13:44,107 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-14 22:13:44,114 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-14 22:13:44,200 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-14 22:13:44,253 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-14 22:13:45,231 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-14 22:13:45,403 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-15 21:35:41,675 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-15 21:35:41,750 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-15 21:35:41,784 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-15 21:35:41,823 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-15 21:35:41,919 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-15 21:35:41,973 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-15 21:35:42,022 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-15 21:35:42,643 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-15 21:35:42,766 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-16 20:45:51,198 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-16 20:45:51,267 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-16 20:45:51,287 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-16 20:45:51,396 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-16 20:45:51,468 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-16 20:45:51,527 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-16 20:45:51,569 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-16 20:45:52,105 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-16 20:45:52,209 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-16 20:47:07,017 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-16 20:47:07,083 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-16 20:47:07,085 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-16 20:47:07,174 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-16 20:47:07,210 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-16 20:47:07,275 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-16 20:47:07,317 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-16 20:47:07,794 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-16 20:47:07,850 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-16 20:47:17,043 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-16 20:47:17,084 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-16 20:47:17,117 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-16 20:47:17,227 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-16 20:47:17,259 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-16 20:47:17,318 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-16 20:47:17,348 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-16 20:47:17,872 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-16 20:47:17,934 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-17 20:15:36,733 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-17 20:15:36,808 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-17 20:15:36,860 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-17 20:15:37,070 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-17 20:15:37,088 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-17 20:15:37,166 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-17 20:15:37,205 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-17 20:15:37,983 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-17 20:15:38,065 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-17 20:16:01,453 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-17 20:16:37,381 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-17 20:19:17,307 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-17 20:27:47,279 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-17 20:27:47,407 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-17 20:27:47,479 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-17 20:27:47,673 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-17 20:27:47,752 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-17 20:27:47,811 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-17 20:27:47,845 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-17 20:27:48,683 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-17 20:27:48,807 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-17 20:27:55,255 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-18 20:29:00,315 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-18 20:37:35,475 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-18 20:54:25,249 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-19 19:39:50,069 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-19 19:51:38,734 | WARNING | data_pipeline | No CSV files found in 'D:\demand_forecasting_system\data'
+2025-10-19 19:52:24,997 | WARNING | data_pipeline | No CSV files found in 'D:\demand_forecasting_system\data'
+2025-10-19 19:52:39,727 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-19 19:59:01,524 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-19 20:03:19,598 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-19 20:03:37,862 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-19 20:12:07,004 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-19 20:12:07,095 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-19 20:12:16,110 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-19 20:17:17,709 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-21 10:32:33,872 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-21 10:33:21,001 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-21 10:37:56,972 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-21 19:52:14,611 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-21 20:39:12,371 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-21 20:39:12,411 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-21 20:39:12,524 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-21 20:39:12,673 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-21 20:39:12,690 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-21 20:39:12,735 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-21 20:39:12,758 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-21 20:39:13,194 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-21 20:39:13,259 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-21 20:49:40,448 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-21 20:50:20,666 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-21 20:53:06,984 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-21 20:53:29,500 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-21 21:09:54,257 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-21 21:09:54,309 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-21 21:09:54,336 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-21 21:09:54,474 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_customer_feedback' (DB)
+2025-10-21 21:09:54,538 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_delivery_performance' (DB)
+2025-10-21 21:09:54,592 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-21 21:09:54,630 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-21 21:09:55,184 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-21 21:09:55,300 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns

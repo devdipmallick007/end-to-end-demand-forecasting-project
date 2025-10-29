@@ -1,0 +1,943 @@
+2025-10-28 21:21:34,322 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-28 21:21:34,360 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-28 21:21:34,360 | INFO | root | initial_rows: 5000
+2025-10-28 21:21:34,361 | INFO | root | duplicates_removed: 0
+2025-10-28 21:21:34,361 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-28 21:21:34,361 | INFO | root | outliers_removed: 3
+2025-10-28 21:21:34,362 | INFO | root | final_rows: 4997
+2025-10-28 21:21:34,362 | INFO | root | rows_removed_total: 3
+2025-10-28 21:21:34,471 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-28 21:21:34,481 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-28 21:21:34,481 | INFO | root | initial_rows: 5000
+2025-10-28 21:21:34,481 | INFO | root | duplicates_removed: 0
+2025-10-28 21:21:34,482 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-28 21:21:34,482 | INFO | root | rows_removed_missing_id: 0
+2025-10-28 21:21:34,482 | INFO | root | final_rows: 5000
+2025-10-28 21:21:34,482 | INFO | root | rows_removed_total: 0
+2025-10-28 21:21:34,556 | ERROR | data_pipeline | Failed to fetch table 'blinkit_customers': Columns ['avg_order_value'] not found in table 'blinkit_customers'
+2025-10-28 21:21:34,558 | WARNING | data_pipeline | blinkit_customers: No data returned. Skipped.
+2025-10-28 21:21:34,618 | ERROR | data_pipeline | Failed to fetch table 'blinkit_marketing_performance': Columns ['roas'] not found in table 'blinkit_marketing_performance'
+2025-10-28 21:21:34,620 | WARNING | data_pipeline | blinkit_marketing_performance: No data returned. Skipped.
+2025-10-28 21:21:34,628 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-28 21:21:34,636 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-28 21:21:34,637 | INFO | root | initial_rows: 268
+2025-10-28 21:21:34,637 | INFO | root | duplicates_removed: 0
+2025-10-28 21:21:34,638 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-28 21:21:34,638 | INFO | root | final_rows: 268
+2025-10-28 21:21:34,638 | INFO | root | rows_removed_total: 0
+2025-10-28 21:22:30,272 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-28 21:22:30,322 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-28 21:22:30,323 | INFO | root | initial_rows: 5000
+2025-10-28 21:22:30,323 | INFO | root | duplicates_removed: 0
+2025-10-28 21:22:30,324 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-28 21:22:30,324 | INFO | root | outliers_removed: 3
+2025-10-28 21:22:30,325 | INFO | root | final_rows: 4997
+2025-10-28 21:22:30,325 | INFO | root | rows_removed_total: 3
+2025-10-28 21:22:30,442 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-28 21:22:30,450 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-28 21:22:30,450 | INFO | root | initial_rows: 5000
+2025-10-28 21:22:30,451 | INFO | root | duplicates_removed: 0
+2025-10-28 21:22:30,451 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-28 21:22:30,452 | INFO | root | rows_removed_missing_id: 0
+2025-10-28 21:22:30,452 | INFO | root | final_rows: 5000
+2025-10-28 21:22:30,452 | INFO | root | rows_removed_total: 0
+2025-10-28 21:22:30,514 | ERROR | data_pipeline | Failed to fetch table 'blinkit_customers': Columns ['avg_order_value'] not found in table 'blinkit_customers'
+2025-10-28 21:22:30,516 | WARNING | data_pipeline | blinkit_customers: No data returned. Skipped.
+2025-10-28 21:22:30,574 | ERROR | data_pipeline | Failed to fetch table 'blinkit_marketing_performance': Columns ['roas'] not found in table 'blinkit_marketing_performance'
+2025-10-28 21:22:30,576 | WARNING | data_pipeline | blinkit_marketing_performance: No data returned. Skipped.
+2025-10-28 21:22:30,585 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-28 21:22:30,593 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-28 21:22:30,593 | INFO | root | initial_rows: 268
+2025-10-28 21:22:30,594 | INFO | root | duplicates_removed: 0
+2025-10-28 21:22:30,594 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-28 21:22:30,594 | INFO | root | final_rows: 268
+2025-10-28 21:22:30,595 | INFO | root | rows_removed_total: 0
+2025-10-28 21:24:19,140 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-28 21:24:19,189 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-28 21:24:19,189 | INFO | root | initial_rows: 5000
+2025-10-28 21:24:19,189 | INFO | root | duplicates_removed: 0
+2025-10-28 21:24:19,190 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-28 21:24:19,190 | INFO | root | outliers_removed: 3
+2025-10-28 21:24:19,190 | INFO | root | final_rows: 4997
+2025-10-28 21:24:19,190 | INFO | root | rows_removed_total: 3
+2025-10-28 21:24:19,319 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-28 21:24:19,325 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-28 21:24:19,326 | INFO | root | initial_rows: 5000
+2025-10-28 21:24:19,326 | INFO | root | duplicates_removed: 0
+2025-10-28 21:24:19,327 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-28 21:24:19,327 | INFO | root | rows_removed_missing_id: 0
+2025-10-28 21:24:19,327 | INFO | root | final_rows: 5000
+2025-10-28 21:24:19,328 | INFO | root | rows_removed_total: 0
+2025-10-28 21:24:19,409 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-28 21:24:19,426 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-28 21:24:19,427 | INFO | root | initial_rows: 2500
+2025-10-28 21:24:19,427 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-28 21:24:19,428 | INFO | root | duplicates_removed: 0
+2025-10-28 21:24:19,429 | INFO | root | final_rows: 2500
+2025-10-28 21:24:19,430 | INFO | root | rows_removed_total: 0
+2025-10-28 21:24:20,969 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-28 21:24:21,006 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-28 21:24:21,007 | INFO | root | initial_rows: 5400
+2025-10-28 21:24:21,007 | INFO | root | duplicates_removed: 0
+2025-10-28 21:24:21,008 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-28 21:24:21,008 | INFO | root | rows_removed_missing_id: 0
+2025-10-28 21:24:21,009 | INFO | root | final_rows: 5400
+2025-10-28 21:24:21,009 | INFO | root | rows_removed_total: 0
+2025-10-28 21:24:21,132 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-28 21:24:21,147 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-28 21:24:21,147 | INFO | root | initial_rows: 268
+2025-10-28 21:24:21,148 | INFO | root | duplicates_removed: 0
+2025-10-28 21:24:21,148 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-28 21:24:21,150 | INFO | root | final_rows: 268
+2025-10-28 21:24:21,150 | INFO | root | rows_removed_total: 0
+2025-10-29 19:41:20,118 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 19:41:20,160 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 19:41:20,160 | INFO | root | initial_rows: 5000
+2025-10-29 19:41:20,161 | INFO | root | duplicates_removed: 0
+2025-10-29 19:41:20,161 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 19:41:20,162 | INFO | root | outliers_removed: 3
+2025-10-29 19:41:20,162 | INFO | root | final_rows: 4997
+2025-10-29 19:41:20,162 | INFO | root | rows_removed_total: 3
+2025-10-29 19:41:20,244 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 19:41:20,252 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 19:41:20,253 | INFO | root | initial_rows: 5000
+2025-10-29 19:41:20,253 | INFO | root | duplicates_removed: 0
+2025-10-29 19:41:20,253 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 19:41:20,254 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 19:41:20,254 | INFO | root | final_rows: 5000
+2025-10-29 19:41:20,254 | INFO | root | rows_removed_total: 0
+2025-10-29 19:41:20,304 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 19:41:20,312 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 19:41:20,313 | INFO | root | initial_rows: 2500
+2025-10-29 19:41:20,313 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 19:41:20,314 | INFO | root | duplicates_removed: 0
+2025-10-29 19:41:20,314 | INFO | root | final_rows: 2500
+2025-10-29 19:41:20,315 | INFO | root | rows_removed_total: 0
+2025-10-29 19:41:22,131 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 19:41:22,145 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 19:41:22,146 | INFO | root | initial_rows: 5400
+2025-10-29 19:41:22,146 | INFO | root | duplicates_removed: 0
+2025-10-29 19:41:22,147 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 19:41:22,147 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 19:41:22,147 | INFO | root | final_rows: 5400
+2025-10-29 19:41:22,147 | INFO | root | rows_removed_total: 0
+2025-10-29 19:41:22,194 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 19:41:22,201 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 19:41:22,202 | INFO | root | initial_rows: 268
+2025-10-29 19:41:22,202 | INFO | root | duplicates_removed: 0
+2025-10-29 19:41:22,202 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 19:41:22,203 | INFO | root | final_rows: 268
+2025-10-29 19:41:22,203 | INFO | root | rows_removed_total: 0
+2025-10-29 19:58:16,854 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 19:58:16,901 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 19:58:16,901 | INFO | root | initial_rows: 5000
+2025-10-29 19:58:16,902 | INFO | root | duplicates_removed: 0
+2025-10-29 19:58:16,902 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 19:58:16,902 | INFO | root | outliers_removed: 3
+2025-10-29 19:58:16,902 | INFO | root | final_rows: 4997
+2025-10-29 19:58:16,902 | INFO | root | rows_removed_total: 3
+2025-10-29 19:58:16,985 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 19:58:16,993 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 19:58:16,994 | INFO | root | initial_rows: 5000
+2025-10-29 19:58:16,994 | INFO | root | duplicates_removed: 0
+2025-10-29 19:58:16,994 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 19:58:16,995 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 19:58:16,995 | INFO | root | final_rows: 5000
+2025-10-29 19:58:16,995 | INFO | root | rows_removed_total: 0
+2025-10-29 19:58:17,039 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 19:58:17,049 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 19:58:17,050 | INFO | root | initial_rows: 2500
+2025-10-29 19:58:17,050 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 19:58:17,050 | INFO | root | duplicates_removed: 0
+2025-10-29 19:58:17,051 | INFO | root | final_rows: 2500
+2025-10-29 19:58:17,051 | INFO | root | rows_removed_total: 0
+2025-10-29 19:58:37,736 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 19:58:37,751 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 19:58:37,752 | INFO | root | initial_rows: 5400
+2025-10-29 19:58:37,752 | INFO | root | duplicates_removed: 0
+2025-10-29 19:58:37,753 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 19:58:37,753 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 19:58:37,754 | INFO | root | final_rows: 5400
+2025-10-29 19:58:37,754 | INFO | root | rows_removed_total: 0
+2025-10-29 19:58:37,801 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 19:58:37,807 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 19:58:37,807 | INFO | root | initial_rows: 268
+2025-10-29 19:58:37,807 | INFO | root | duplicates_removed: 0
+2025-10-29 19:58:37,808 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 19:58:37,808 | INFO | root | final_rows: 268
+2025-10-29 19:58:37,808 | INFO | root | rows_removed_total: 0
+2025-10-29 19:58:37,830 | ERROR | data_pipeline | Failed to fetch table 'blinkit_weather': Execution failed on sql 'SELECT * FROM blinkit_weather;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_weather'. (208) (SQLExecDirectW)")
+2025-10-29 19:58:37,832 | WARNING | data_pipeline | blinkit_weather: No data returned. Skipped.
+2025-10-29 20:01:38,828 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:01:38,873 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:01:38,873 | INFO | root | initial_rows: 5000
+2025-10-29 20:01:38,874 | INFO | root | duplicates_removed: 0
+2025-10-29 20:01:38,874 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:01:38,874 | INFO | root | outliers_removed: 3
+2025-10-29 20:01:38,875 | INFO | root | final_rows: 4997
+2025-10-29 20:01:38,875 | INFO | root | rows_removed_total: 3
+2025-10-29 20:01:38,955 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:01:38,962 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:01:38,963 | INFO | root | initial_rows: 5000
+2025-10-29 20:01:38,964 | INFO | root | duplicates_removed: 0
+2025-10-29 20:01:38,964 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:01:38,964 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:01:38,965 | INFO | root | final_rows: 5000
+2025-10-29 20:01:38,965 | INFO | root | rows_removed_total: 0
+2025-10-29 20:01:39,157 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:01:39,167 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:01:39,167 | INFO | root | initial_rows: 2500
+2025-10-29 20:01:39,167 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:01:39,167 | INFO | root | duplicates_removed: 0
+2025-10-29 20:01:39,168 | INFO | root | final_rows: 2500
+2025-10-29 20:01:39,168 | INFO | root | rows_removed_total: 0
+2025-10-29 20:01:39,239 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:01:39,259 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:01:39,260 | INFO | root | initial_rows: 5400
+2025-10-29 20:01:39,260 | INFO | root | duplicates_removed: 0
+2025-10-29 20:01:39,260 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:01:39,260 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:01:39,261 | INFO | root | final_rows: 5400
+2025-10-29 20:01:39,261 | INFO | root | rows_removed_total: 0
+2025-10-29 20:01:39,307 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:01:39,313 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:01:39,313 | INFO | root | initial_rows: 268
+2025-10-29 20:01:39,314 | INFO | root | duplicates_removed: 0
+2025-10-29 20:01:39,314 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:01:39,314 | INFO | root | final_rows: 268
+2025-10-29 20:01:39,314 | INFO | root | rows_removed_total: 0
+2025-10-29 20:01:55,515 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:01:55,757 | INFO | root | initial_rows: 186600
+2025-10-29 20:01:55,758 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:01:55,758 | INFO | root | duplicates_removed: 0
+2025-10-29 20:01:55,759 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:01:55,759 | INFO | root | final_rows: 186600
+2025-10-29 20:01:55,759 | INFO | root | rows_removed_total: 0
+2025-10-29 20:01:55,760 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:11:25,041 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:11:25,075 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:11:25,076 | INFO | root | initial_rows: 5000
+2025-10-29 20:11:25,076 | INFO | root | duplicates_removed: 0
+2025-10-29 20:11:25,077 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:11:25,077 | INFO | root | outliers_removed: 3
+2025-10-29 20:11:25,077 | INFO | root | final_rows: 4997
+2025-10-29 20:11:25,077 | INFO | root | rows_removed_total: 3
+2025-10-29 20:11:25,146 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:11:25,153 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:11:25,153 | INFO | root | initial_rows: 5000
+2025-10-29 20:11:25,154 | INFO | root | duplicates_removed: 0
+2025-10-29 20:11:25,154 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:11:25,155 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:11:25,155 | INFO | root | final_rows: 5000
+2025-10-29 20:11:25,155 | INFO | root | rows_removed_total: 0
+2025-10-29 20:11:25,198 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:11:25,207 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:11:25,208 | INFO | root | initial_rows: 2500
+2025-10-29 20:11:25,208 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:11:25,208 | INFO | root | duplicates_removed: 0
+2025-10-29 20:11:25,208 | INFO | root | final_rows: 2500
+2025-10-29 20:11:25,209 | INFO | root | rows_removed_total: 0
+2025-10-29 20:11:25,258 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:11:25,274 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:11:25,275 | INFO | root | initial_rows: 5400
+2025-10-29 20:11:25,275 | INFO | root | duplicates_removed: 0
+2025-10-29 20:11:25,276 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:11:25,276 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:11:25,276 | INFO | root | final_rows: 5400
+2025-10-29 20:11:25,276 | INFO | root | rows_removed_total: 0
+2025-10-29 20:11:25,317 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:11:25,324 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:11:25,325 | INFO | root | initial_rows: 268
+2025-10-29 20:11:25,325 | INFO | root | duplicates_removed: 0
+2025-10-29 20:11:25,325 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:11:25,325 | INFO | root | final_rows: 268
+2025-10-29 20:11:25,325 | INFO | root | rows_removed_total: 0
+2025-10-29 20:11:25,771 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:11:25,984 | INFO | root | initial_rows: 186600
+2025-10-29 20:11:25,985 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:11:25,985 | INFO | root | duplicates_removed: 0
+2025-10-29 20:11:25,985 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:11:25,985 | INFO | root | final_rows: 186600
+2025-10-29 20:11:25,985 | INFO | root | rows_removed_total: 0
+2025-10-29 20:11:25,986 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:11:26,422 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:11:26,429 | WARNING | data_pipeline | blinkit_inventory: No data returned. Skipped.
+2025-10-29 20:12:26,045 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:12:26,071 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:12:26,071 | INFO | root | initial_rows: 5000
+2025-10-29 20:12:26,072 | INFO | root | duplicates_removed: 0
+2025-10-29 20:12:26,072 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:12:26,072 | INFO | root | outliers_removed: 3
+2025-10-29 20:12:26,072 | INFO | root | final_rows: 4997
+2025-10-29 20:12:26,073 | INFO | root | rows_removed_total: 3
+2025-10-29 20:12:26,138 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:12:26,145 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:12:26,145 | INFO | root | initial_rows: 5000
+2025-10-29 20:12:26,146 | INFO | root | duplicates_removed: 0
+2025-10-29 20:12:26,146 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:12:26,146 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:12:26,146 | INFO | root | final_rows: 5000
+2025-10-29 20:12:26,147 | INFO | root | rows_removed_total: 0
+2025-10-29 20:12:26,188 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:12:26,195 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:12:26,195 | INFO | root | initial_rows: 2500
+2025-10-29 20:12:26,195 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:12:26,196 | INFO | root | duplicates_removed: 0
+2025-10-29 20:12:26,196 | INFO | root | final_rows: 2500
+2025-10-29 20:12:26,196 | INFO | root | rows_removed_total: 0
+2025-10-29 20:12:26,247 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:12:26,259 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:12:26,259 | INFO | root | initial_rows: 5400
+2025-10-29 20:12:26,259 | INFO | root | duplicates_removed: 0
+2025-10-29 20:12:26,260 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:12:26,260 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:12:26,260 | INFO | root | final_rows: 5400
+2025-10-29 20:12:26,261 | INFO | root | rows_removed_total: 0
+2025-10-29 20:12:26,303 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:12:26,309 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:12:26,309 | INFO | root | initial_rows: 268
+2025-10-29 20:12:26,310 | INFO | root | duplicates_removed: 0
+2025-10-29 20:12:26,310 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:12:26,310 | INFO | root | final_rows: 268
+2025-10-29 20:12:26,311 | INFO | root | rows_removed_total: 0
+2025-10-29 20:12:26,757 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:12:26,955 | INFO | root | initial_rows: 186600
+2025-10-29 20:12:26,955 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:12:26,955 | INFO | root | duplicates_removed: 0
+2025-10-29 20:12:26,956 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:12:26,956 | INFO | root | final_rows: 186600
+2025-10-29 20:12:26,956 | INFO | root | rows_removed_total: 0
+2025-10-29 20:12:26,957 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:12:27,406 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:12:27,413 | WARNING | data_pipeline | blinkit_inventory: No data returned. Skipped.
+2025-10-29 20:14:38,129 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:14:38,844 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:14:38,893 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:14:38,893 | INFO | root | initial_rows: 5000
+2025-10-29 20:14:38,893 | INFO | root | duplicates_removed: 0
+2025-10-29 20:14:38,893 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:14:38,894 | INFO | root | outliers_removed: 3
+2025-10-29 20:14:38,894 | INFO | root | final_rows: 4997
+2025-10-29 20:14:38,894 | INFO | root | rows_removed_total: 3
+2025-10-29 20:14:38,962 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:14:38,970 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:14:38,970 | INFO | root | initial_rows: 5000
+2025-10-29 20:14:38,970 | INFO | root | duplicates_removed: 0
+2025-10-29 20:14:38,971 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:14:38,971 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:14:38,971 | INFO | root | final_rows: 5000
+2025-10-29 20:14:38,971 | INFO | root | rows_removed_total: 0
+2025-10-29 20:14:39,012 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:14:39,022 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:14:39,022 | INFO | root | initial_rows: 2500
+2025-10-29 20:14:39,023 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:14:39,023 | INFO | root | duplicates_removed: 0
+2025-10-29 20:14:39,023 | INFO | root | final_rows: 2500
+2025-10-29 20:14:39,024 | INFO | root | rows_removed_total: 0
+2025-10-29 20:14:39,071 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:14:39,086 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:14:39,086 | INFO | root | initial_rows: 5400
+2025-10-29 20:14:39,087 | INFO | root | duplicates_removed: 0
+2025-10-29 20:14:39,087 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:14:39,087 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:14:39,088 | INFO | root | final_rows: 5400
+2025-10-29 20:14:39,088 | INFO | root | rows_removed_total: 0
+2025-10-29 20:14:39,127 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:14:39,135 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:14:39,135 | INFO | root | initial_rows: 268
+2025-10-29 20:14:39,135 | INFO | root | duplicates_removed: 0
+2025-10-29 20:14:39,135 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:14:39,136 | INFO | root | final_rows: 268
+2025-10-29 20:14:39,136 | INFO | root | rows_removed_total: 0
+2025-10-29 20:14:39,141 | WARNING | data_pipeline | blinkit_weather_data: No data available. Skipped.
+2025-10-29 20:14:39,187 | INFO | root | initial_rows: 75172
+2025-10-29 20:14:39,188 | INFO | root | duplicates_removed: 0
+2025-10-29 20:14:39,188 | INFO | root | missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:14:39,188 | INFO | root | rows_removed_missing_pk: 0
+2025-10-29 20:14:39,188 | INFO | root | missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:14:39,188 | INFO | root | final_rows: 75172
+2025-10-29 20:14:39,189 | INFO | root | rows_removed_total: 0
+2025-10-29 20:15:14,923 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:15:14,947 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:15:14,948 | INFO | root | initial_rows: 5000
+2025-10-29 20:15:14,948 | INFO | root | duplicates_removed: 0
+2025-10-29 20:15:14,948 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:15:14,949 | INFO | root | outliers_removed: 3
+2025-10-29 20:15:14,949 | INFO | root | final_rows: 4997
+2025-10-29 20:15:14,949 | INFO | root | rows_removed_total: 3
+2025-10-29 20:15:15,016 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:15:15,021 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:15:15,021 | INFO | root | initial_rows: 5000
+2025-10-29 20:15:15,022 | INFO | root | duplicates_removed: 0
+2025-10-29 20:15:15,022 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:15:15,022 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:15:15,022 | INFO | root | final_rows: 5000
+2025-10-29 20:15:15,023 | INFO | root | rows_removed_total: 0
+2025-10-29 20:15:15,064 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:15:15,072 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:15:15,072 | INFO | root | initial_rows: 2500
+2025-10-29 20:15:15,072 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:15:15,073 | INFO | root | duplicates_removed: 0
+2025-10-29 20:15:15,073 | INFO | root | final_rows: 2500
+2025-10-29 20:15:15,073 | INFO | root | rows_removed_total: 0
+2025-10-29 20:15:15,119 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:15:15,130 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:15:15,131 | INFO | root | initial_rows: 5400
+2025-10-29 20:15:15,131 | INFO | root | duplicates_removed: 0
+2025-10-29 20:15:15,132 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:15:15,132 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:15:15,132 | INFO | root | final_rows: 5400
+2025-10-29 20:15:15,133 | INFO | root | rows_removed_total: 0
+2025-10-29 20:15:15,172 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:15:15,177 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:15:15,178 | INFO | root | initial_rows: 268
+2025-10-29 20:15:15,178 | INFO | root | duplicates_removed: 0
+2025-10-29 20:15:15,178 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:15:15,179 | INFO | root | final_rows: 268
+2025-10-29 20:15:15,179 | INFO | root | rows_removed_total: 0
+2025-10-29 20:15:15,615 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:15:15,813 | INFO | root | initial_rows: 186600
+2025-10-29 20:15:15,813 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:15:15,814 | INFO | root | duplicates_removed: 0
+2025-10-29 20:15:15,814 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:15:15,814 | INFO | root | final_rows: 186600
+2025-10-29 20:15:15,814 | INFO | root | rows_removed_total: 0
+2025-10-29 20:15:15,815 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:15:16,257 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:15:16,263 | WARNING | data_pipeline | blinkit_inventory: No data returned. Skipped.
+2025-10-29 20:16:42,389 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:16:42,938 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:16:42,961 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:16:42,962 | INFO | root | initial_rows: 5000
+2025-10-29 20:16:42,962 | INFO | root | duplicates_removed: 0
+2025-10-29 20:16:42,962 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:16:42,963 | INFO | root | outliers_removed: 3
+2025-10-29 20:16:42,963 | INFO | root | final_rows: 4997
+2025-10-29 20:16:42,963 | INFO | root | rows_removed_total: 3
+2025-10-29 20:16:43,048 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:16:43,054 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:16:43,055 | INFO | root | initial_rows: 5000
+2025-10-29 20:16:43,055 | INFO | root | duplicates_removed: 0
+2025-10-29 20:16:43,055 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:16:43,056 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:16:43,056 | INFO | root | final_rows: 5000
+2025-10-29 20:16:43,056 | INFO | root | rows_removed_total: 0
+2025-10-29 20:16:43,096 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:16:43,103 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:16:43,103 | INFO | root | initial_rows: 2500
+2025-10-29 20:16:43,104 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:16:43,104 | INFO | root | duplicates_removed: 0
+2025-10-29 20:16:43,104 | INFO | root | final_rows: 2500
+2025-10-29 20:16:43,104 | INFO | root | rows_removed_total: 0
+2025-10-29 20:16:43,153 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:16:43,166 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:16:43,166 | INFO | root | initial_rows: 5400
+2025-10-29 20:16:43,166 | INFO | root | duplicates_removed: 0
+2025-10-29 20:16:43,167 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:16:43,167 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:16:43,168 | INFO | root | final_rows: 5400
+2025-10-29 20:16:43,168 | INFO | root | rows_removed_total: 0
+2025-10-29 20:16:43,210 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:16:43,215 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:16:43,216 | INFO | root | initial_rows: 268
+2025-10-29 20:16:43,216 | INFO | root | duplicates_removed: 0
+2025-10-29 20:16:43,216 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:16:43,217 | INFO | root | final_rows: 268
+2025-10-29 20:16:43,217 | INFO | root | rows_removed_total: 0
+2025-10-29 20:16:43,222 | WARNING | data_pipeline | blinkit_weather_data: No data available. Skipped.
+2025-10-29 20:16:43,267 | INFO | root | initial_rows: 75172
+2025-10-29 20:16:43,267 | INFO | root | duplicates_removed: 0
+2025-10-29 20:16:43,267 | INFO | root | missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:16:43,268 | INFO | root | rows_removed_missing_pk: 0
+2025-10-29 20:16:43,268 | INFO | root | missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:16:43,268 | INFO | root | final_rows: 75172
+2025-10-29 20:16:43,268 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:21,593 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:18:22,130 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:18:22,152 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:18:22,153 | INFO | root | initial_rows: 5000
+2025-10-29 20:18:22,153 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:22,153 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:18:22,153 | INFO | root | outliers_removed: 3
+2025-10-29 20:18:22,153 | INFO | root | final_rows: 4997
+2025-10-29 20:18:22,154 | INFO | root | rows_removed_total: 3
+2025-10-29 20:18:22,218 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:18:22,223 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:18:22,224 | INFO | root | initial_rows: 5000
+2025-10-29 20:18:22,224 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:22,224 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:18:22,224 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:18:22,224 | INFO | root | final_rows: 5000
+2025-10-29 20:18:22,225 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:22,266 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:18:22,274 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:18:22,274 | INFO | root | initial_rows: 2500
+2025-10-29 20:18:22,274 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:18:22,275 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:22,275 | INFO | root | final_rows: 2500
+2025-10-29 20:18:22,275 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:22,322 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:18:22,333 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:18:22,334 | INFO | root | initial_rows: 5400
+2025-10-29 20:18:22,334 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:22,334 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:18:22,335 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:18:22,335 | INFO | root | final_rows: 5400
+2025-10-29 20:18:22,335 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:22,382 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:18:22,391 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:18:22,391 | INFO | root | initial_rows: 268
+2025-10-29 20:18:22,392 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:22,392 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:18:22,393 | INFO | root | final_rows: 268
+2025-10-29 20:18:22,393 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:22,400 | WARNING | data_pipeline | blinkit_weather_data: No data available. Skipped.
+2025-10-29 20:18:22,452 | INFO | root | initial_rows: 75172
+2025-10-29 20:18:22,452 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:22,452 | INFO | root | missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:18:22,452 | INFO | root | rows_removed_missing_pk: 0
+2025-10-29 20:18:22,452 | INFO | root | missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:18:22,452 | INFO | root | final_rows: 75172
+2025-10-29 20:18:22,452 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:48,411 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:18:48,835 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:18:48,858 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:18:48,858 | INFO | root | initial_rows: 5000
+2025-10-29 20:18:48,858 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:48,859 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:18:48,859 | INFO | root | outliers_removed: 3
+2025-10-29 20:18:48,859 | INFO | root | final_rows: 4997
+2025-10-29 20:18:48,859 | INFO | root | rows_removed_total: 3
+2025-10-29 20:18:48,927 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:18:48,933 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:18:48,933 | INFO | root | initial_rows: 5000
+2025-10-29 20:18:48,933 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:48,934 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:18:48,934 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:18:48,934 | INFO | root | final_rows: 5000
+2025-10-29 20:18:48,934 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:48,973 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:18:48,981 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:18:48,982 | INFO | root | initial_rows: 2500
+2025-10-29 20:18:48,982 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:18:48,982 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:48,982 | INFO | root | final_rows: 2500
+2025-10-29 20:18:48,983 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:49,031 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:18:49,043 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:18:49,043 | INFO | root | initial_rows: 5400
+2025-10-29 20:18:49,043 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:49,043 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:18:49,043 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:18:49,043 | INFO | root | final_rows: 5400
+2025-10-29 20:18:49,044 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:49,096 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:18:49,104 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:18:49,104 | INFO | root | initial_rows: 268
+2025-10-29 20:18:49,104 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:49,104 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:18:49,105 | INFO | root | final_rows: 268
+2025-10-29 20:18:49,105 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:49,553 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:18:49,755 | INFO | root | initial_rows: 186600
+2025-10-29 20:18:49,755 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:18:49,756 | INFO | root | duplicates_removed: 0
+2025-10-29 20:18:49,756 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:18:49,756 | INFO | root | final_rows: 186600
+2025-10-29 20:18:49,756 | INFO | root | rows_removed_total: 0
+2025-10-29 20:18:49,757 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:18:50,186 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:18:50,194 | WARNING | data_pipeline | blinkit_inventory: No data returned. Skipped.
+2025-10-29 20:20:53,343 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:20:53,371 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:20:53,415 | INFO | root | initial_rows: 75172
+2025-10-29 20:20:53,416 | INFO | root | duplicates_removed: 0
+2025-10-29 20:20:53,416 | INFO | root | missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:20:53,416 | INFO | root | rows_removed_missing_pk: 0
+2025-10-29 20:20:53,416 | INFO | root | missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:20:53,416 | INFO | root | final_rows: 75172
+2025-10-29 20:20:53,416 | INFO | root | rows_removed_total: 0
+2025-10-29 20:20:53,963 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:20:53,985 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:20:53,986 | INFO | root | initial_rows: 5000
+2025-10-29 20:20:53,986 | INFO | root | duplicates_removed: 0
+2025-10-29 20:20:53,986 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:20:53,986 | INFO | root | outliers_removed: 3
+2025-10-29 20:20:53,987 | INFO | root | final_rows: 4997
+2025-10-29 20:20:53,987 | INFO | root | rows_removed_total: 3
+2025-10-29 20:20:54,051 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:20:54,056 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:20:54,057 | INFO | root | initial_rows: 5000
+2025-10-29 20:20:54,057 | INFO | root | duplicates_removed: 0
+2025-10-29 20:20:54,057 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:20:54,057 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:20:54,058 | INFO | root | final_rows: 5000
+2025-10-29 20:20:54,058 | INFO | root | rows_removed_total: 0
+2025-10-29 20:20:54,114 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:20:54,125 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:20:54,126 | INFO | root | initial_rows: 2500
+2025-10-29 20:20:54,126 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:20:54,126 | INFO | root | duplicates_removed: 0
+2025-10-29 20:20:54,127 | INFO | root | final_rows: 2500
+2025-10-29 20:20:54,127 | INFO | root | rows_removed_total: 0
+2025-10-29 20:20:54,186 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:20:54,201 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:20:54,201 | INFO | root | initial_rows: 5400
+2025-10-29 20:20:54,201 | INFO | root | duplicates_removed: 0
+2025-10-29 20:20:54,201 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:20:54,201 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:20:54,202 | INFO | root | final_rows: 5400
+2025-10-29 20:20:54,202 | INFO | root | rows_removed_total: 0
+2025-10-29 20:20:54,243 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:20:54,248 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:20:54,249 | INFO | root | initial_rows: 268
+2025-10-29 20:20:54,249 | INFO | root | duplicates_removed: 0
+2025-10-29 20:20:54,249 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:20:54,249 | INFO | root | final_rows: 268
+2025-10-29 20:20:54,250 | INFO | root | rows_removed_total: 0
+2025-10-29 20:20:54,699 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:20:54,898 | INFO | root | initial_rows: 186600
+2025-10-29 20:20:54,898 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:20:54,898 | INFO | root | duplicates_removed: 0
+2025-10-29 20:20:54,899 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:20:54,899 | INFO | root | final_rows: 186600
+2025-10-29 20:20:54,899 | INFO | root | rows_removed_total: 0
+2025-10-29 20:20:54,899 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:20:55,337 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:20:55,343 | WARNING | data_pipeline | blinkit_inventory: No data returned. Skipped.
+2025-10-29 20:25:39,259 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:25:39,293 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:25:39,338 | INFO | root | initial_rows: 75172
+2025-10-29 20:25:39,338 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:39,338 | INFO | root | missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:25:39,339 | INFO | root | rows_removed_missing_pk: 0
+2025-10-29 20:25:39,339 | INFO | root | missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:25:39,339 | INFO | root | final_rows: 75172
+2025-10-29 20:25:39,339 | INFO | root | rows_removed_total: 0
+2025-10-29 20:25:40,034 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:25:40,061 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:25:40,062 | INFO | root | initial_rows: 5000
+2025-10-29 20:25:40,062 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:40,062 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:25:40,062 | INFO | root | outliers_removed: 3
+2025-10-29 20:25:40,062 | INFO | root | final_rows: 4997
+2025-10-29 20:25:40,062 | INFO | root | rows_removed_total: 3
+2025-10-29 20:25:40,130 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:25:40,135 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:25:40,136 | INFO | root | initial_rows: 5000
+2025-10-29 20:25:40,136 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:40,136 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:25:40,136 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:25:40,136 | INFO | root | final_rows: 5000
+2025-10-29 20:25:40,137 | INFO | root | rows_removed_total: 0
+2025-10-29 20:25:40,178 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:25:40,186 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:25:40,186 | INFO | root | initial_rows: 2500
+2025-10-29 20:25:40,187 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:25:40,187 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:40,187 | INFO | root | final_rows: 2500
+2025-10-29 20:25:40,187 | INFO | root | rows_removed_total: 0
+2025-10-29 20:25:40,240 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:25:40,254 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:25:40,254 | INFO | root | initial_rows: 5400
+2025-10-29 20:25:40,254 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:40,255 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:25:40,255 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:25:40,255 | INFO | root | final_rows: 5400
+2025-10-29 20:25:40,255 | INFO | root | rows_removed_total: 0
+2025-10-29 20:25:40,298 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:25:40,305 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:25:40,305 | INFO | root | initial_rows: 268
+2025-10-29 20:25:40,305 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:40,305 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:25:40,305 | INFO | root | final_rows: 268
+2025-10-29 20:25:40,305 | INFO | root | rows_removed_total: 0
+2025-10-29 20:25:40,779 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:25:40,980 | INFO | root | initial_rows: 186600
+2025-10-29 20:25:40,980 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:25:40,981 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:40,981 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:25:40,981 | INFO | root | final_rows: 186600
+2025-10-29 20:25:40,981 | INFO | root | rows_removed_total: 0
+2025-10-29 20:25:40,981 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:25:41,412 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:25:41,419 | WARNING | data_pipeline | blinkit_inventory: No data returned. Skipped.
+2025-10-29 20:25:58,784 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:25:59,219 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:25:59,240 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:25:59,241 | INFO | root | initial_rows: 5000
+2025-10-29 20:25:59,241 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:59,241 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:25:59,242 | INFO | root | outliers_removed: 3
+2025-10-29 20:25:59,242 | INFO | root | final_rows: 4997
+2025-10-29 20:25:59,242 | INFO | root | rows_removed_total: 3
+2025-10-29 20:25:59,313 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:25:59,318 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:25:59,319 | INFO | root | initial_rows: 5000
+2025-10-29 20:25:59,319 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:59,319 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:25:59,319 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:25:59,320 | INFO | root | final_rows: 5000
+2025-10-29 20:25:59,320 | INFO | root | rows_removed_total: 0
+2025-10-29 20:25:59,360 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:25:59,366 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:25:59,366 | INFO | root | initial_rows: 2500
+2025-10-29 20:25:59,366 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:25:59,367 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:59,367 | INFO | root | final_rows: 2500
+2025-10-29 20:25:59,367 | INFO | root | rows_removed_total: 0
+2025-10-29 20:25:59,416 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:25:59,431 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:25:59,431 | INFO | root | initial_rows: 5400
+2025-10-29 20:25:59,431 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:59,432 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:25:59,432 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:25:59,432 | INFO | root | final_rows: 5400
+2025-10-29 20:25:59,432 | INFO | root | rows_removed_total: 0
+2025-10-29 20:25:59,475 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:25:59,481 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:25:59,482 | INFO | root | initial_rows: 268
+2025-10-29 20:25:59,482 | INFO | root | duplicates_removed: 0
+2025-10-29 20:25:59,482 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:25:59,483 | INFO | root | final_rows: 268
+2025-10-29 20:25:59,483 | INFO | root | rows_removed_total: 0
+2025-10-29 20:25:59,924 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:26:00,151 | INFO | root | initial_rows: 186600
+2025-10-29 20:26:00,151 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:26:00,152 | INFO | root | duplicates_removed: 0
+2025-10-29 20:26:00,152 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:26:00,152 | INFO | root | final_rows: 186600
+2025-10-29 20:26:00,152 | INFO | root | rows_removed_total: 0
+2025-10-29 20:26:00,152 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:26:00,618 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:26:00,626 | WARNING | data_pipeline | blinkit_inventory: No data returned. Skipped.
+2025-10-29 20:28:27,823 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:28:28,452 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:28:28,487 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:28:28,487 | INFO | root | initial_rows: 5000
+2025-10-29 20:28:28,487 | INFO | root | duplicates_removed: 0
+2025-10-29 20:28:28,488 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:28:28,488 | INFO | root | outliers_removed: 3
+2025-10-29 20:28:28,488 | INFO | root | final_rows: 4997
+2025-10-29 20:28:28,488 | INFO | root | rows_removed_total: 3
+2025-10-29 20:28:28,556 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:28:28,561 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:28:28,562 | INFO | root | initial_rows: 5000
+2025-10-29 20:28:28,562 | INFO | root | duplicates_removed: 0
+2025-10-29 20:28:28,563 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:28:28,563 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:28:28,563 | INFO | root | final_rows: 5000
+2025-10-29 20:28:28,564 | INFO | root | rows_removed_total: 0
+2025-10-29 20:28:28,608 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:28:28,616 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:28:28,617 | INFO | root | initial_rows: 2500
+2025-10-29 20:28:28,617 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:28:28,617 | INFO | root | duplicates_removed: 0
+2025-10-29 20:28:28,617 | INFO | root | final_rows: 2500
+2025-10-29 20:28:28,617 | INFO | root | rows_removed_total: 0
+2025-10-29 20:28:28,681 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:28:28,700 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:28:28,700 | INFO | root | initial_rows: 5400
+2025-10-29 20:28:28,700 | INFO | root | duplicates_removed: 0
+2025-10-29 20:28:28,701 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:28:28,701 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:28:28,701 | INFO | root | final_rows: 5400
+2025-10-29 20:28:28,701 | INFO | root | rows_removed_total: 0
+2025-10-29 20:28:28,813 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:28:28,818 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:28:28,819 | INFO | root | initial_rows: 268
+2025-10-29 20:28:28,819 | INFO | root | duplicates_removed: 0
+2025-10-29 20:28:28,819 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:28:28,819 | INFO | root | final_rows: 268
+2025-10-29 20:28:28,820 | INFO | root | rows_removed_total: 0
+2025-10-29 20:28:31,854 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:28:32,053 | INFO | root | initial_rows: 186600
+2025-10-29 20:28:32,053 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:28:32,053 | INFO | root | duplicates_removed: 0
+2025-10-29 20:28:32,053 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:28:32,054 | INFO | root | final_rows: 186600
+2025-10-29 20:28:32,054 | INFO | root | rows_removed_total: 0
+2025-10-29 20:28:32,054 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:28:32,493 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:28:32,539 | INFO | root | initial_rows: 75172
+2025-10-29 20:28:32,539 | INFO | root | duplicates_removed: 0
+2025-10-29 20:28:32,539 | INFO | root | missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:28:32,539 | INFO | root | rows_removed_missing_pk: 0
+2025-10-29 20:28:32,539 | INFO | root | missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:28:32,540 | INFO | root | final_rows: 75172
+2025-10-29 20:28:32,540 | INFO | root | rows_removed_total: 0
+2025-10-29 20:30:15,455 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:30:16,111 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:30:16,134 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:30:16,134 | INFO | root | initial_rows: 5000
+2025-10-29 20:30:16,135 | INFO | root | duplicates_removed: 0
+2025-10-29 20:30:16,135 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:30:16,135 | INFO | root | outliers_removed: 3
+2025-10-29 20:30:16,135 | INFO | root | final_rows: 4997
+2025-10-29 20:30:16,136 | INFO | root | rows_removed_total: 3
+2025-10-29 20:30:16,203 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:30:16,207 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:30:16,208 | INFO | root | initial_rows: 5000
+2025-10-29 20:30:16,208 | INFO | root | duplicates_removed: 0
+2025-10-29 20:30:16,208 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:30:16,208 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:30:16,209 | INFO | root | final_rows: 5000
+2025-10-29 20:30:16,209 | INFO | root | rows_removed_total: 0
+2025-10-29 20:30:16,249 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:30:16,256 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:30:16,257 | INFO | root | initial_rows: 2500
+2025-10-29 20:30:16,257 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:30:16,257 | INFO | root | duplicates_removed: 0
+2025-10-29 20:30:16,257 | INFO | root | final_rows: 2500
+2025-10-29 20:30:16,258 | INFO | root | rows_removed_total: 0
+2025-10-29 20:30:16,317 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:30:16,335 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:30:16,335 | INFO | root | initial_rows: 5400
+2025-10-29 20:30:16,336 | INFO | root | duplicates_removed: 0
+2025-10-29 20:30:16,336 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:30:16,336 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:30:16,336 | INFO | root | final_rows: 5400
+2025-10-29 20:30:16,336 | INFO | root | rows_removed_total: 0
+2025-10-29 20:30:16,381 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:30:16,385 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:30:16,386 | INFO | root | initial_rows: 268
+2025-10-29 20:30:16,386 | INFO | root | duplicates_removed: 0
+2025-10-29 20:30:16,386 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:30:16,387 | INFO | root | final_rows: 268
+2025-10-29 20:30:16,387 | INFO | root | rows_removed_total: 0
+2025-10-29 20:30:22,332 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:30:22,533 | INFO | root | initial_rows: 186600
+2025-10-29 20:30:22,533 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:30:22,533 | INFO | root | duplicates_removed: 0
+2025-10-29 20:30:22,534 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:30:22,534 | INFO | root | final_rows: 186600
+2025-10-29 20:30:22,534 | INFO | root | rows_removed_total: 0
+2025-10-29 20:30:22,534 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:30:22,975 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:30:23,016 | INFO | root | initial_rows: 75172
+2025-10-29 20:30:23,016 | INFO | root | duplicates_removed: 0
+2025-10-29 20:30:23,016 | INFO | root | missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:30:23,017 | INFO | root | rows_removed_missing_pk: 0
+2025-10-29 20:30:23,017 | INFO | root | missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:30:23,017 | INFO | root | final_rows: 75172
+2025-10-29 20:30:23,018 | INFO | root | rows_removed_total: 0
+2025-10-29 20:32:38,867 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:32:39,866 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:32:39,979 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:32:40,069 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:33:04,496 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:33:04,561 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:33:05,031 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:33:05,679 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:34:22,873 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:34:23,369 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:34:23,391 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:34:23,392 | INFO | root | initial_rows: 5000
+2025-10-29 20:34:23,392 | INFO | root | duplicates_removed: 0
+2025-10-29 20:34:23,392 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:34:23,392 | INFO | root | outliers_removed: 3
+2025-10-29 20:34:23,393 | INFO | root | final_rows: 4997
+2025-10-29 20:34:23,393 | INFO | root | rows_removed_total: 3
+2025-10-29 20:34:23,460 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:34:23,465 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:34:23,465 | INFO | root | initial_rows: 5000
+2025-10-29 20:34:23,466 | INFO | root | duplicates_removed: 0
+2025-10-29 20:34:23,466 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:34:23,466 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:34:23,466 | INFO | root | final_rows: 5000
+2025-10-29 20:34:23,466 | INFO | root | rows_removed_total: 0
+2025-10-29 20:34:23,508 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:34:23,515 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:34:23,515 | INFO | root | initial_rows: 2500
+2025-10-29 20:34:23,516 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:34:23,516 | INFO | root | duplicates_removed: 0
+2025-10-29 20:34:23,516 | INFO | root | final_rows: 2500
+2025-10-29 20:34:23,517 | INFO | root | rows_removed_total: 0
+2025-10-29 20:34:23,563 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:34:23,576 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:34:23,576 | INFO | root | initial_rows: 5400
+2025-10-29 20:34:23,576 | INFO | root | duplicates_removed: 0
+2025-10-29 20:34:23,577 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:34:23,577 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:34:23,577 | INFO | root | final_rows: 5400
+2025-10-29 20:34:23,578 | INFO | root | rows_removed_total: 0
+2025-10-29 20:34:23,619 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:34:23,623 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:34:23,623 | INFO | root | initial_rows: 268
+2025-10-29 20:34:23,624 | INFO | root | duplicates_removed: 0
+2025-10-29 20:34:23,624 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:34:23,625 | INFO | root | final_rows: 268
+2025-10-29 20:34:23,625 | INFO | root | rows_removed_total: 0
+2025-10-29 20:34:24,058 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:34:24,267 | INFO | root | initial_rows: 186600
+2025-10-29 20:34:24,267 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:34:24,267 | INFO | root | duplicates_removed: 0
+2025-10-29 20:34:24,268 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:34:24,268 | INFO | root | final_rows: 186600
+2025-10-29 20:34:24,268 | INFO | root | rows_removed_total: 0
+2025-10-29 20:34:24,268 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:34:24,698 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:34:24,738 | INFO | root | initial_rows: 75172
+2025-10-29 20:34:24,738 | INFO | root | duplicates_removed: 0
+2025-10-29 20:34:24,738 | INFO | root | missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:34:24,738 | INFO | root | rows_removed_missing_pk: 0
+2025-10-29 20:34:24,739 | INFO | root | missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:34:24,739 | INFO | root | final_rows: 75172
+2025-10-29 20:34:24,739 | INFO | root | rows_removed_total: 0
+2025-10-29 20:36:44,085 | INFO | data_pipeline | Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:36:44,598 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:36:44,621 | INFO | root | CLEANING REPORT: blinkit_orders
+2025-10-29 20:36:44,621 | INFO | root | initial_rows: 5000
+2025-10-29 20:36:44,622 | INFO | root | duplicates_removed: 0
+2025-10-29 20:36:44,622 | INFO | root | missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:36:44,622 | INFO | root | outliers_removed: 3
+2025-10-29 20:36:44,622 | INFO | root | final_rows: 4997
+2025-10-29 20:36:44,623 | INFO | root | rows_removed_total: 3
+2025-10-29 20:36:44,687 | INFO | data_pipeline | Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:36:44,692 | INFO | root | CLEANING REPORT: blinkit_order_items
+2025-10-29 20:36:44,692 | INFO | root | initial_rows: 5000
+2025-10-29 20:36:44,692 | INFO | root | duplicates_removed: 0
+2025-10-29 20:36:44,693 | INFO | root | missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:36:44,693 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:36:44,693 | INFO | root | final_rows: 5000
+2025-10-29 20:36:44,693 | INFO | root | rows_removed_total: 0
+2025-10-29 20:36:44,733 | INFO | data_pipeline | Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:36:44,742 | INFO | root | CLEANING REPORT: blinkit_customers
+2025-10-29 20:36:44,742 | INFO | root | initial_rows: 2500
+2025-10-29 20:36:44,743 | INFO | root | missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:36:44,743 | INFO | root | duplicates_removed: 0
+2025-10-29 20:36:44,743 | INFO | root | final_rows: 2500
+2025-10-29 20:36:44,744 | INFO | root | rows_removed_total: 0
+2025-10-29 20:36:44,792 | INFO | data_pipeline | Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:36:44,804 | INFO | root | CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:36:44,805 | INFO | root | initial_rows: 5400
+2025-10-29 20:36:44,805 | INFO | root | duplicates_removed: 0
+2025-10-29 20:36:44,805 | INFO | root | missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:36:44,805 | INFO | root | rows_removed_missing_id: 0
+2025-10-29 20:36:44,806 | INFO | root | final_rows: 5400
+2025-10-29 20:36:44,806 | INFO | root | rows_removed_total: 0
+2025-10-29 20:36:44,846 | INFO | data_pipeline | Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:36:44,851 | INFO | root | CLEANING REPORT: blinkit_products
+2025-10-29 20:36:44,851 | INFO | root | initial_rows: 268
+2025-10-29 20:36:44,851 | INFO | root | duplicates_removed: 0
+2025-10-29 20:36:44,851 | INFO | root | missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:36:44,852 | INFO | root | final_rows: 268
+2025-10-29 20:36:44,852 | INFO | root | rows_removed_total: 0
+2025-10-29 20:36:45,291 | INFO | data_pipeline | Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:36:45,495 | INFO | root |  CLEANING REPORT: Weather Data
+2025-10-29 20:36:45,496 | INFO | root | initial_rows: 186600
+2025-10-29 20:36:45,496 | INFO | root | initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:36:45,496 | INFO | root | duplicates_removed: 0
+2025-10-29 20:36:45,497 | INFO | root | rows_removed_missing_date: 0
+2025-10-29 20:36:45,497 | INFO | root | final_rows: 186600
+2025-10-29 20:36:45,497 | INFO | root | rows_removed_total: 0
+2025-10-29 20:36:45,497 | INFO | root | final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:36:45,932 | ERROR | data_pipeline | Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:36:45,970 | INFO | root |  CLEANING REPORT: Inventory Data
+2025-10-29 20:36:45,970 | INFO | root | initial_rows: 75172
+2025-10-29 20:36:45,970 | INFO | root | duplicates_removed: 0
+2025-10-29 20:36:45,970 | INFO | root | missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:36:45,971 | INFO | root | rows_removed_missing_pk: 0
+2025-10-29 20:36:45,971 | INFO | root | missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:36:45,971 | INFO | root | final_rows: 75172
+2025-10-29 20:36:45,971 | INFO | root | rows_removed_total: 0

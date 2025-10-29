@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.venv",
+    "\\data",
+    "\\data_pipeline",
+    "\\notebooks"
+  ],
+  "PreviewInSolutionExplorer": false
+}

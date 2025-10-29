@@ -1,0 +1,84 @@
+2025-10-29 20:23:21,677 - INFO - Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:23:21,740 - INFO - \U0001f9f9 CLEANING REPORT: Inventory Data
+2025-10-29 20:23:21,743 - INFO - initial_rows: 75172
+2025-10-29 20:23:21,743 - INFO - duplicates_removed: 0
+2025-10-29 20:23:21,743 - INFO - missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:23:21,743 - INFO - rows_removed_missing_pk: 0
+2025-10-29 20:23:21,743 - INFO - missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:23:21,743 - INFO - final_rows: 75172
+2025-10-29 20:23:21,743 - INFO - rows_removed_total: 0
+2025-10-29 20:23:41,551 - INFO - Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:23:41,589 - INFO - \U0001f9f9 CLEANING REPORT: Inventory Data
+2025-10-29 20:23:41,589 - INFO - initial_rows: 75172
+2025-10-29 20:23:41,589 - INFO - duplicates_removed: 0
+2025-10-29 20:23:41,589 - INFO - missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:23:41,589 - INFO - rows_removed_missing_pk: 0
+2025-10-29 20:23:41,589 - INFO - missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:23:41,589 - INFO - final_rows: 75172
+2025-10-29 20:23:41,589 - INFO - rows_removed_total: 0
+2025-10-29 20:25:06,196 - INFO - Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:25:06,240 - INFO - \U0001f9f9 CLEANING REPORT: Inventory Data
+2025-10-29 20:25:06,240 - INFO - initial_rows: 75172
+2025-10-29 20:25:06,240 - INFO - duplicates_removed: 0
+2025-10-29 20:25:06,240 - INFO - missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:25:06,240 - INFO - rows_removed_missing_pk: 0
+2025-10-29 20:25:06,240 - INFO - missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:25:06,240 - INFO - final_rows: 75172
+2025-10-29 20:25:06,240 - INFO - rows_removed_total: 0
+2025-10-29 20:32:38,867 - INFO - Loaded CSV 'blinkit_inventory.csv' with 75172 rows, 4 columns
+2025-10-29 20:32:39,866 - INFO - Fetched 5000 rows from table 'blinkit_orders' (DB)
+2025-10-29 20:32:39,901 - INFO - CLEANING REPORT: blinkit_orders
+2025-10-29 20:32:39,901 - INFO - initial_rows: 5000
+2025-10-29 20:32:39,901 - INFO - duplicates_removed: 0
+2025-10-29 20:32:39,901 - INFO - missing_before: {'order_id': 0, 'customer_id': 0, 'order_date': 0, 'order_total': 0, 'payment_method': 0, 'store_id': 0, 'promised_delivery_time': 0, 'actual_delivery_time': 0, 'delivery_status': 0}
+2025-10-29 20:32:39,901 - INFO - outliers_removed: 3
+2025-10-29 20:32:39,902 - INFO - final_rows: 4997
+2025-10-29 20:32:39,902 - INFO - rows_removed_total: 3
+2025-10-29 20:32:39,979 - INFO - Fetched 5000 rows from table 'blinkit_order_items' (DB)
+2025-10-29 20:32:39,986 - INFO - CLEANING REPORT: blinkit_order_items
+2025-10-29 20:32:39,986 - INFO - initial_rows: 5000
+2025-10-29 20:32:39,986 - INFO - duplicates_removed: 0
+2025-10-29 20:32:39,986 - INFO - missing_before: {'order_id': 0, 'product_id': 0, 'quantity': 0, 'unit_price': 0}
+2025-10-29 20:32:39,986 - INFO - rows_removed_missing_id: 0
+2025-10-29 20:32:39,986 - INFO - final_rows: 5000
+2025-10-29 20:32:39,986 - INFO - rows_removed_total: 0
+2025-10-29 20:32:40,069 - INFO - Fetched 2500 rows from table 'blinkit_customers' (DB)
+2025-10-29 20:32:40,075 - INFO - CLEANING REPORT: blinkit_customers
+2025-10-29 20:32:40,075 - INFO - initial_rows: 2500
+2025-10-29 20:32:40,076 - INFO - missing_before: {'customer_id': 0, 'area': 0, 'pincode': 0, 'registration_date': 0, 'customer_segment': 0, 'total_orders': 0, 'avg_order_value': 0}
+2025-10-29 20:32:40,076 - INFO - duplicates_removed: 0
+2025-10-29 20:32:40,076 - INFO - final_rows: 2500
+2025-10-29 20:32:40,076 - INFO - rows_removed_total: 0
+2025-10-29 20:33:04,496 - INFO - Fetched 5400 rows from table 'blinkit_marketing_performance' (DB)
+2025-10-29 20:33:04,513 - INFO - CLEANING REPORT: blinkit_marketing_performance
+2025-10-29 20:33:04,513 - INFO - initial_rows: 5400
+2025-10-29 20:33:04,513 - INFO - duplicates_removed: 0
+2025-10-29 20:33:04,514 - INFO - missing_before: {'campaign_id': 0, 'campaign_name': 0, 'date': 0, 'channel': 0, 'impressions': 0, 'clicks': 0, 'conversions': 0, 'spend': 0, 'revenue_generated': 0}
+2025-10-29 20:33:04,514 - INFO - rows_removed_missing_id: 0
+2025-10-29 20:33:04,514 - INFO - final_rows: 5400
+2025-10-29 20:33:04,514 - INFO - rows_removed_total: 0
+2025-10-29 20:33:04,561 - INFO - Fetched 268 rows from table 'blinkit_products' (DB)
+2025-10-29 20:33:04,566 - INFO - CLEANING REPORT: blinkit_products
+2025-10-29 20:33:04,566 - INFO - initial_rows: 268
+2025-10-29 20:33:04,567 - INFO - duplicates_removed: 0
+2025-10-29 20:33:04,567 - INFO - missing_before: {'product_id': 0, 'product_name': 0, 'category': 0, 'brand': 0, 'price': 0, 'mrp': 0, 'margin_percentage': 0, 'shelf_life_days': 0, 'min_stock_level': 0, 'max_stock_level': 0}
+2025-10-29 20:33:04,567 - INFO - final_rows: 268
+2025-10-29 20:33:04,567 - INFO - rows_removed_total: 0
+2025-10-29 20:33:05,031 - INFO - Fetched 186600 rows from table 'blinkit_weather_data' (DB)
+2025-10-29 20:33:05,242 - INFO - \U0001f4dd CLEANING REPORT: Weather Data
+2025-10-29 20:33:05,245 - INFO - initial_rows: 186600
+2025-10-29 20:33:05,245 - INFO - initial_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:33:05,245 - INFO - duplicates_removed: 0
+2025-10-29 20:33:05,245 - INFO - rows_removed_missing_date: 0
+2025-10-29 20:33:05,245 - INFO - final_rows: 186600
+2025-10-29 20:33:05,245 - INFO - rows_removed_total: 0
+2025-10-29 20:33:05,245 - INFO - final_missing: {'area': 0, 'date': 0, 'temperature': 0, 'precipitation': 0}
+2025-10-29 20:33:05,679 - ERROR - Failed to fetch table 'blinkit_inventory': Execution failed on sql 'SELECT * FROM blinkit_inventory;': ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'blinkit_inventory'. (208) (SQLExecDirectW)")
+2025-10-29 20:33:05,718 - INFO - \U0001f9f9 CLEANING REPORT: Inventory Data
+2025-10-29 20:33:05,719 - INFO - initial_rows: 75172
+2025-10-29 20:33:05,719 - INFO - duplicates_removed: 0
+2025-10-29 20:33:05,719 - INFO - missing_before: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:33:05,719 - INFO - rows_removed_missing_pk: 0
+2025-10-29 20:33:05,719 - INFO - missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
+2025-10-29 20:33:05,719 - INFO - final_rows: 75172
+2025-10-29 20:33:05,719 - INFO - rows_removed_total: 0
