@@ -82,3 +82,9 @@
 2025-10-29 20:33:05,719 - INFO - missing_after: {'product_id': 0, 'date': 0, 'stock_received': 0, 'damaged_stock': 0}
 2025-10-29 20:33:05,719 - INFO - final_rows: 75172
 2025-10-29 20:33:05,719 - INFO - rows_removed_total: 0
+2025-11-06 11:58:34,752 - INFO - ========== Running CUSTOMER Feature Engineering ==========
+2025-11-06 12:05:23,133 - INFO - ========== Running CUSTOMER Feature Engineering ==========
+2025-11-06 13:17:50,363 - INFO - ========== Running CUSTOMER Feature Engineering ==========
+2025-11-08 21:58:12,323 | INFO | data_pipeline | Loading data from D:/DEMAND_FORECASTING_SYSTEM/data/processed\blinkit_orders_clean.csv
+2025-11-08 21:58:12,436 | INFO | data_pipeline | Loading data from D:/DEMAND_FORECASTING_SYSTEM/data/processed\blinkit_order_items_clean.csv
+2025-11-08 21:58:27,005 | INFO | data_pipeline | Starting feature engineering for Orders...
