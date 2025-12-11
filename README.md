@@ -47,11 +47,11 @@ demand_forecasting_system/
 |   ├── task/
 |   ├── mlruns/
 |   ├── config/
-|
-│──clean_data.py   
-|──main_feature.py   
-|──featch_data.py   
-|──model.py   
+|   │ 
+│   │──clean_data.py   
+|   │──main_feature.py   
+|   │──featch_data.py   
+|   │──model.py   
 |  
 │
 ├── models/
