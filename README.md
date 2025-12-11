@@ -333,8 +333,6 @@ CI/CD with GitHub Actions
 
 Automated retraining pipeline
 
-Airflow orchestration
-
 Model registry + deployment pipeline
 
 Real-time inference API
