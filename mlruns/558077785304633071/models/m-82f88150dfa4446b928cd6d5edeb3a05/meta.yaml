@@ -1,0 +1,10 @@
+artifact_location: file:///D:/demand_forecasting_system/mlruns/558077785304633071/models/m-82f88150dfa4446b928cd6d5edeb3a05/artifacts
+creation_timestamp: 1765120735182
+experiment_id: '558077785304633071'
+last_updated_timestamp: 1765120753871
+model_id: m-82f88150dfa4446b928cd6d5edeb3a05
+model_type: null
+name: xgb_model
+source_run_id: 33323a30059f4c868b9fdb5b96dc4ea3
+status: 2
+status_message: null

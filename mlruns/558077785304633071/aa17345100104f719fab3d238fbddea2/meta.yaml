@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/aa17345100104f719fab3d238fbddea2/artifacts
+end_time: 1764340600213
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: aa17345100104f719fab3d238fbddea2
+run_name: inquisitive-rat-99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764340584976
+status: 3
+tags: []
+user_id: Devdip  Mallick

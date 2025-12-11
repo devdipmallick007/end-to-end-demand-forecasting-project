@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/dc0a497f9a9a4c15b240004c2a3196c4/artifacts
+end_time: 1764339502205
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: dc0a497f9a9a4c15b240004c2a3196c4
+run_name: wise-pig-190
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764339502122
+status: 3
+tags: []
+user_id: Devdip  Mallick

@@ -1,0 +1,27 @@
+data_paths:
+  base_path: "D:/DEMAND_FORECASTING_SYSTEM/data/processed"
+
+  orders: "blinkit_orders_clean.csv"
+  order_items: "blinkit_order_items_clean.csv"
+  customers: "blinkit_customers_clean.csv"
+  products: "blinkit_products_clean.csv"
+  weather: "blinkit_weather_clean.csv"
+
+output:
+  processed_dir: "D:/DEMAND_FORECASTING_SYSTEM/data/processed/features"
+
+  orders_features: "orders_features.csv"
+  order_items_features: "order_items_features.csv"
+  customers_features: "customers_features.csv"
+  products_features: "products_features.csv"
+  inventory_features: "inventory_features.csv"
+  marketing_features: "marketing_features.csv"
+  weather_features: "weather_features.csv"
+
+logging:
+  log_dir: "D:/DEMAND_FORECASTING_SYSTEM/data_pipeline/logs"
+  log_file: "pipeline.log"
+  log_level: "INFO"
+  max_log_size: 10485760  # 10 MB
+  backup_count: 5 # Number of backup log files to keep  
+

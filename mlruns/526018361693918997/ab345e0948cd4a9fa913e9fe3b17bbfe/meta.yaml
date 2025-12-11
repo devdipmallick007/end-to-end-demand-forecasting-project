@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/526018361693918997/ab345e0948cd4a9fa913e9fe3b17bbfe/artifacts
+end_time: 1764172171945
+entry_point_name: ''
+experiment_id: '526018361693918997'
+lifecycle_stage: active
+run_id: ab345e0948cd4a9fa913e9fe3b17bbfe
+run_name: resilient-newt-263
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764172165163
+status: 3
+tags: []
+user_id: Devdip  Mallick

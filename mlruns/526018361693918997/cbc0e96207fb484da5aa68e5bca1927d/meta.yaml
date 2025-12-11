@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/526018361693918997/cbc0e96207fb484da5aa68e5bca1927d/artifacts
+end_time: 1764868511416
+entry_point_name: ''
+experiment_id: '526018361693918997'
+lifecycle_stage: active
+run_id: cbc0e96207fb484da5aa68e5bca1927d
+run_name: awesome-vole-492
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764868511286
+status: 3
+tags: []
+user_id: Devdip  Mallick

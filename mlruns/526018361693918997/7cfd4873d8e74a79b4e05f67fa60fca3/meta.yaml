@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/526018361693918997/7cfd4873d8e74a79b4e05f67fa60fca3/artifacts
+end_time: 1764345939329
+entry_point_name: ''
+experiment_id: '526018361693918997'
+lifecycle_stage: active
+run_id: 7cfd4873d8e74a79b4e05f67fa60fca3
+run_name: resilient-frog-576
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764345939254
+status: 3
+tags: []
+user_id: Devdip  Mallick

@@ -10,12 +10,12 @@ from utils.logger import logger
 from config.settings import DB_SERVER, DB_NAME, USER_AGENT, GEOCODE_URL, REDIS_HOST, REDIS_PORT, REDIS_DB, REDIS_KEY
 from tasks.extract_mssql import fetch_table_data
 
-# ----------------- Database Connection -----------------
+
 def get_connection():
     conn_str = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={DB_SERVER};DATABASE={DB_NAME};Trusted_Connection=yes"
     return pyodbc.connect(conn_str)
 
-# ----------------- Redis Connection -----------------
+
 r = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=REDIS_DB, decode_responses=True)
 
 def get_new_areas(areas):
@@ -27,7 +27,7 @@ def update_area_cache(areas):
     for area in areas:
         r.sadd(REDIS_KEY, area)
 
-# ----------------- Fetch & Clean Areas -----------------
+
 def fetch_distinct_areas():
     df = fetch_table_data("blinkit_customers")
     if df is None or "area" not in df.columns:
@@ -36,7 +36,6 @@ def fetch_distinct_areas():
     areas = df["area"].dropna().map(lambda x: x.strip().title()).unique().tolist()
     return areas
 
-# ----------------- Create Geocode Table -----------------
 def create_geocode_table():
     conn = get_connection()
     cursor = conn.cursor()
@@ -52,7 +51,7 @@ def create_geocode_table():
     conn.close()
     logger.info("Geocode table ensured in database")
 
-# ----------------- Geocode Function -----------------
+
 def geocode_area(area):
     try:
         headers = {"User-Agent": USER_AGENT, "Accept-Language": "en"}
@@ -77,7 +76,6 @@ def geocode_area(area):
     finally:
         time.sleep(1.1)  # respect API rate limit
 
-# ----------------- Store Geocode -----------------
 def store_geocode(area, lat, lon):
     conn = get_connection()
     cursor = conn.cursor()
@@ -101,7 +99,7 @@ def store_geocode(area, lat, lon):
     finally:
         conn.close()
 
-# ----------------- Parallel Geocoding -----------------
+
 MAX_THREADS = 3
 
 def run_geocode_pipeline():

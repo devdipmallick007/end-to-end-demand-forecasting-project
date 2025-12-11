@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/526018361693918997/c8cb76bcf4cd403f9cc4d4ed53bd19bb/artifacts
+end_time: 1763823863288
+entry_point_name: ''
+experiment_id: '526018361693918997'
+lifecycle_stage: active
+run_id: c8cb76bcf4cd403f9cc4d4ed53bd19bb
+run_name: receptive-midge-807
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763823856303
+status: 3
+tags: []
+user_id: Devdip  Mallick

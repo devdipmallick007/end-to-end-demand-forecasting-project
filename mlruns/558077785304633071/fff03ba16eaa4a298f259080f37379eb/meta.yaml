@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/fff03ba16eaa4a298f259080f37379eb/artifacts
+end_time: 1764944717571
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: fff03ba16eaa4a298f259080f37379eb
+run_name: resilient-cub-337
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764944717503
+status: 3
+tags: []
+user_id: Devdip  Mallick

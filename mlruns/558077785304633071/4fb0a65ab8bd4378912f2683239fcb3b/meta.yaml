@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/4fb0a65ab8bd4378912f2683239fcb3b/artifacts
+end_time: 1764339450200
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: 4fb0a65ab8bd4378912f2683239fcb3b
+run_name: bustling-bee-750
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764339450135
+status: 3
+tags: []
+user_id: Devdip  Mallick

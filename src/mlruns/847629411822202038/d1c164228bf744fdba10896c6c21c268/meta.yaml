@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/src/mlruns/847629411822202038/d1c164228bf744fdba10896c6c21c268/artifacts
+end_time: 1763909778475
+entry_point_name: ''
+experiment_id: '847629411822202038'
+lifecycle_stage: active
+run_id: d1c164228bf744fdba10896c6c21c268
+run_name: silent-hawk-901
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763909747624
+status: 3
+tags: []
+user_id: Devdip  Mallick

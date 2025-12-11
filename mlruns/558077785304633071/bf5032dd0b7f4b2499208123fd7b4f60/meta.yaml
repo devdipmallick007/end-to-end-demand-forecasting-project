@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/bf5032dd0b7f4b2499208123fd7b4f60/artifacts
+end_time: 1764257881473
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: bf5032dd0b7f4b2499208123fd7b4f60
+run_name: masked-eel-934
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764257865130
+status: 3
+tags: []
+user_id: Devdip  Mallick

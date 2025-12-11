@@ -15,11 +15,10 @@ from config.settings import (
 )
 from tasks.extract_mssql import fetch_table_data
 from tasks.geocode_enrichment import get_connection
-
-# ----------------- Redis Connection -----------------
+ 
 r = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=REDIS_DB, decode_responses=True)
 
-# ----------------- Fetch Date Range -----------------
+
 def fetch_date_range():
     df = fetch_table_data("blinkit_orders")   # using orders table
     if df is None or "order_date" not in df.columns:
@@ -30,7 +29,7 @@ def fetch_date_range():
     logger.info(f"Fetched date range: {min_date} -> {max_date}")
     return min_date, max_date
 
-# ----------------- Fetch Geocodes -----------------
+
 def fetch_geocodes():
     df = fetch_table_data("blinkit_area_geocode")
     if df is None or not {"area", "latitude", "longitude"}.issubset(df.columns):
@@ -40,7 +39,6 @@ def fetch_geocodes():
     logger.info(f"Fetched {len(geocodes)} geocodes from DB")
     return geocodes.to_dict(orient="records")
 
-# ----------------- Create Weather Table -----------------
 def create_weather_table():
     conn = get_connection()
     cursor = conn.cursor()
@@ -58,7 +56,6 @@ def create_weather_table():
     conn.close()
     logger.info("Weather table ensured in database")
 
-# ----------------- Split Date Range -----------------
 def split_date_range(start_date, end_date, chunk_size=365):
     ranges = []
     current = start_date
@@ -68,7 +65,6 @@ def split_date_range(start_date, end_date, chunk_size=365):
         current = chunk_end + timedelta(days=1)
     return ranges
 
-# ----------------- Decide API -----------------
 def get_weather_url(start_date, end_date):
     today = date.today()
     if end_date < today:
@@ -79,7 +75,7 @@ def get_weather_url(start_date, end_date):
         # split internally in fetch_weather
         return None
 
-# ----------------- Check if Record Exists -----------------
+
 def is_record_stored(area, date_str):
     """Check if record exists in DB or Redis"""
     cache_key = f"{area}:{date_str}"
@@ -97,7 +93,6 @@ def is_record_stored(area, date_str):
             return True
     return False
 
-# ----------------- Weather API Call -----------------
 def fetch_weather(area, lat, lon, start_date, end_date):
     all_records = []
     today = date.today()
@@ -162,7 +157,7 @@ def fetch_weather(area, lat, lon, start_date, end_date):
 
     return all_records
 
-# ----------------- Store Weather -----------------
+
 def store_weather(records):
     if not records:
         return

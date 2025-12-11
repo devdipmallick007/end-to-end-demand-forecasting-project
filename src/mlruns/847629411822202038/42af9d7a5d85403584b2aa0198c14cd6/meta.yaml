@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/src/mlruns/847629411822202038/42af9d7a5d85403584b2aa0198c14cd6/artifacts
+end_time: 1763910520975
+entry_point_name: ''
+experiment_id: '847629411822202038'
+lifecycle_stage: active
+run_id: 42af9d7a5d85403584b2aa0198c14cd6
+run_name: resilient-elk-430
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763910510774
+status: 3
+tags: []
+user_id: Devdip  Mallick

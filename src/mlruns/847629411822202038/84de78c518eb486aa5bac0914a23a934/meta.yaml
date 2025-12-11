@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/src/mlruns/847629411822202038/84de78c518eb486aa5bac0914a23a934/artifacts
+end_time: 1763910688041
+entry_point_name: ''
+experiment_id: '847629411822202038'
+lifecycle_stage: active
+run_id: 84de78c518eb486aa5bac0914a23a934
+run_name: suave-sheep-759
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763910677728
+status: 3
+tags: []
+user_id: Devdip  Mallick

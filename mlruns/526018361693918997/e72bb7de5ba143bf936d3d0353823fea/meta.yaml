@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/526018361693918997/e72bb7de5ba143bf936d3d0353823fea/artifacts
+end_time: 1763823770964
+entry_point_name: ''
+experiment_id: '526018361693918997'
+lifecycle_stage: active
+run_id: e72bb7de5ba143bf936d3d0353823fea
+run_name: judicious-sheep-246
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763823770907
+status: 4
+tags: []
+user_id: Devdip  Mallick

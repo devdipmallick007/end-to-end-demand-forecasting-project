@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/526018361693918997/058e801a381c4175a798312ce7484a74/artifacts
+end_time: 1764944189224
+entry_point_name: ''
+experiment_id: '526018361693918997'
+lifecycle_stage: active
+run_id: 058e801a381c4175a798312ce7484a74
+run_name: whimsical-colt-182
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764944189153
+status: 3
+tags: []
+user_id: Devdip  Mallick

@@ -31,9 +31,7 @@ def load_all_csv(data_folder="D:\\demand_forecasting_system\\data\\raw_data"):
 
     return all_data
 
-# -----------------------------
-# Test run
-# -----------------------------
+
 if __name__ == "__main__":
     logger.info("Loading all CSVs from data folder...")
     data = load_all_csv()

@@ -40,12 +40,6 @@ schemas = {
     ]
 }
 
-
-
-# -------------------------------
-# Helper functions
-# -------------------------------
-
 def get_table_columns(table_name):
     """Return the list of columns for a given table."""
     if table_name not in schemas:

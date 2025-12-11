@@ -35,5 +35,5 @@ def setup_project_paths(target_folder: str = "src"):
     for path in [project_root, src_dir]:
         if path not in sys.path:
             sys.path.append(path)
-    print("✅ Project paths set up successfully.")
+    print(" Project paths set up successfully.")
     return project_root, src_dir

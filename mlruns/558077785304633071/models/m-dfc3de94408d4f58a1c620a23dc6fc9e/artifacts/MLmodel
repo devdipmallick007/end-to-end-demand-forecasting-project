@@ -1,0 +1,22 @@
+artifact_path: file:///D:/demand_forecasting_system/mlruns/558077785304633071/models/m-dfc3de94408d4f58a1c620a23dc6fc9e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.4.0
+model_id: m-dfc3de94408d4f58a1c620a23dc6fc9e
+model_size_bytes: 419693
+model_uuid: m-dfc3de94408d4f58a1c620a23dc6fc9e
+prompts: null
+run_id: 5ac6ed223cdc4363bed4b3fa42b49d81
+utc_time_created: '2025-11-28 16:40:09.191066'

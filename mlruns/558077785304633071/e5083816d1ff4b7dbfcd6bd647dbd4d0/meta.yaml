@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/e5083816d1ff4b7dbfcd6bd647dbd4d0/artifacts
+end_time: 1764944717304
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: e5083816d1ff4b7dbfcd6bd647dbd4d0
+run_name: selective-shrew-245
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764944687279
+status: 3
+tags: []
+user_id: Devdip  Mallick

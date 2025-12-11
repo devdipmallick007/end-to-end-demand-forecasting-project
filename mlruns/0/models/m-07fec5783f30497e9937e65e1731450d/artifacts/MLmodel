@@ -1,0 +1,22 @@
+artifact_path: file:///D:/demand_forecasting_system/mlruns/0/models/m-07fec5783f30497e9937e65e1731450d/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.2
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: xgb
+    xgb_version: 1.6.2
+mlflow_version: 3.4.0
+model_id: m-07fec5783f30497e9937e65e1731450d
+model_size_bytes: 1044424
+model_uuid: m-07fec5783f30497e9937e65e1731450d
+prompts: null
+run_id: b85a26527c47438eb664f39c1b5ae77b
+utc_time_created: '2025-11-22 14:54:47.205622'

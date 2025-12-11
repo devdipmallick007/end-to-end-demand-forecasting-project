@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/44d54983d0a94edebcb9ba9f3f1cbb9e/artifacts
+end_time: 1764342390575
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: 44d54983d0a94edebcb9ba9f3f1cbb9e
+run_name: nimble-carp-584
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764342390487
+status: 3
+tags: []
+user_id: Devdip  Mallick

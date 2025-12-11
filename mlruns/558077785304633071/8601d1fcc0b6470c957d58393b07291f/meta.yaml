@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/8601d1fcc0b6470c957d58393b07291f/artifacts
+end_time: 1765119541379
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: 8601d1fcc0b6470c957d58393b07291f
+run_name: full_pipeline_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765119521116
+status: 3
+tags: []
+user_id: Devdip  Mallick

@@ -1,0 +1,88 @@
+allow_extra_columns: false
+
+columns:
+  store_id:
+    dtype: int64
+    required: true
+
+  product_id:
+    dtype: int64
+    required: true
+
+  order_date:
+    dtype: datetime
+    required: true
+
+  daily_qty:
+    dtype: float64
+    required: true
+    min: 0
+
+  daily_revenue:
+    dtype: float64
+    required: true
+    min: 0
+
+  orders_count:
+    dtype: int64
+    required: true
+    min: 0
+
+  high_value_item_ratio:
+    dtype: float64
+    required: true
+    min: 0
+    max: 1
+
+  avg_unit_price:
+    dtype: float64
+    required: true
+    min: 0
+
+  lag_1_qty:
+    dtype: float64
+  lag_7_qty:
+    dtype: float64
+  lag_14_qty:
+    dtype: float64
+  lag_30_qty:
+    dtype: float64
+
+  rolling_7_mean_qty:
+    dtype: float64
+  rolling_7_sum_qty:
+    dtype: float64
+  rolling_14_mean_qty:
+    dtype: float64
+  rolling_14_sum_qty:
+    dtype: float64
+  rolling_30_mean_qty:
+    dtype: float64
+  rolling_30_sum_qty:
+    dtype: float64
+
+  cumulative_qty:
+    dtype: float64
+  cumulative_revenue:
+    dtype: float64
+  rolling_30_std_qty:
+    dtype: float64
+
+  qty_growth_rate:
+    dtype: float64
+
+  day:
+    dtype: int64
+  month:
+    dtype: int64
+  year:
+    dtype: int64
+  day_of_week:
+    dtype: int64
+
+  is_weekend:
+    dtype: bool
+  is_month_start:
+    dtype: bool
+  is_month_end:
+    dtype: bool

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/1398f7e1ac5b4f078b440b1c8a93d0f0/artifacts
+end_time: 1764425170990
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: 1398f7e1ac5b4f078b440b1c8a93d0f0
+run_name: nosy-hog-380
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764425170916
+status: 3
+tags: []
+user_id: Devdip  Mallick

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/345cb427db9a494e91b0b9a9f472c8a0/artifacts
+end_time: 1764258938802
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: 345cb427db9a494e91b0b9a9f472c8a0
+run_name: languid-snake-482
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764258930449
+status: 3
+tags: []
+user_id: Devdip  Mallick

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/526018361693918997/40d85aa0c8b04060983a5e08b6301b34/artifacts
+end_time: 1764257702904
+entry_point_name: ''
+experiment_id: '526018361693918997'
+lifecycle_stage: active
+run_id: 40d85aa0c8b04060983a5e08b6301b34
+run_name: dashing-bass-0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764257702748
+status: 4
+tags: []
+user_id: Devdip  Mallick

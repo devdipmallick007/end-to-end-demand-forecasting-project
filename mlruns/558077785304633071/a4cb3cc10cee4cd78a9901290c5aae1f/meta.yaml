@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/demand_forecasting_system/mlruns/558077785304633071/a4cb3cc10cee4cd78a9901290c5aae1f/artifacts
+end_time: 1764338946914
+entry_point_name: ''
+experiment_id: '558077785304633071'
+lifecycle_stage: active
+run_id: a4cb3cc10cee4cd78a9901290c5aae1f
+run_name: receptive-perch-960
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764338922018
+status: 3
+tags: []
+user_id: Devdip  Mallick

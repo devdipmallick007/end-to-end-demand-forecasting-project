@@ -1,0 +1,10 @@
+artifact_location: file:///D:/demand_forecasting_system/mlruns/0/models/m-8b40c719c95049b48c81d2315a7fd49a/artifacts
+creation_timestamp: 1763823531665
+experiment_id: '0'
+last_updated_timestamp: 1763823538800
+model_id: m-8b40c719c95049b48c81d2315a7fd49a
+model_type: null
+name: model
+source_run_id: a4e43d3300c54c4c8735843521108a48
+status: 2
+status_message: null
